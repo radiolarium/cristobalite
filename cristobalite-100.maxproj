@@ -2,7 +2,7 @@
 	"name" : "cristobalite-100",
 	"version" : 1,
 	"creationdate" : -733648505,
-	"modificationdate" : -723627111,
+	"modificationdate" : -723625564,
 	"viewrect" : [ 33.0, 75.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -21,6 +21,11 @@
 				"local" : 1
 			}
 ,
+			"loop-mechanics.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
 			"trigger.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
@@ -32,6 +37,11 @@
 			}
 ,
 			"notes.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"looper.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
