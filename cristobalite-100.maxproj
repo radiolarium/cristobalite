@@ -1,8 +1,8 @@
 {
 	"name" : "cristobalite-100",
 	"version" : 1,
-	"creationdate" : -733648505,
-	"modificationdate" : -723625564,
+	"creationdate" : -733649473,
+	"modificationdate" : 3571575658,
 	"viewrect" : [ 33.0, 75.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -26,6 +26,11 @@
 				"local" : 1
 			}
 ,
+			"looper.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
 			"trigger.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
@@ -40,15 +45,31 @@
 				"kind" : "patcher",
 				"local" : 1
 			}
+
+		}
 ,
-			"looper.maxpat" : 			{
-				"kind" : "patcher",
+		"media" : 		{
+
+		}
+,
+		"data" : 		{
+			"envelopes.txt" : 			{
+				"kind" : "textfile",
 				"local" : 1
 			}
 
 		}
 ,
 		"externals" : 		{
+			"mubu.granular~.mxe64" : 			{
+				"kind" : "object",
+				"local" : 1
+			}
+,
+			"mubu.mxe64" : 			{
+				"kind" : "object",
+				"local" : 1
+			}
 
 		}
 
