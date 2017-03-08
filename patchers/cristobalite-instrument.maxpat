@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 201.0, 473.0, 1409.0, 533.0 ],
+		"rect" : [ 263.0, 232.0, 1409.0, 701.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -661,11 +661,11 @@
 					"content" : [ 2, [ [  ] ] ],
 					"cursor_color" : [ 1.0, 1.0, 1.0, 0.76 ],
 					"cursor_followmouse" : 0,
-					"cursor_position" : 45529.198308,
+					"cursor_position" : -1.0,
 					"cursor_shape" : "bar",
 					"cursor_size" : 7,
 					"cursor_visible" : 1,
-					"domain_bounds" : [ 0.0, 64246.734694 ],
+					"domain_bounds" : [ 0.0, 2844.739229 ],
 					"domainruler_bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"domainruler_fgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"domainruler_grid" : 0,
@@ -1420,7 +1420,7 @@
 			}
 , 			{
 				"name" : "parse-in-param.maxpat",
-				"bootpath" : "E:/Projekte/Max7/Projects/cristobalite-100",
+				"bootpath" : "E:/Projekte/Max7/Projects/cristobalite-100/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}

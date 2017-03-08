@@ -1,8 +1,8 @@
 {
 	"name" : "cristobalite-100",
 	"version" : 1,
-	"creationdate" : -733649473,
-	"modificationdate" : 3571575658,
+	"creationdate" : -733649715,
+	"modificationdate" : 3571858916,
 	"viewrect" : [ 33.0, 75.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -16,17 +16,17 @@
 				"toplevel" : 1
 			}
 ,
-			"modulation.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
 			"loop-mechanics.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
 ,
 			"looper.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"modulation.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -42,6 +42,21 @@
 			}
 ,
 			"notes.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"cristobalite.control.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"parse-in-param.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"cristobalite-instrument.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}

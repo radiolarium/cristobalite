@@ -1,0 +1,41 @@
+{
+	"filetype" : "C74Snapshot",
+	"version" : 2,
+	"minorversion" : 0,
+	"name" : "cristobalite-100",
+	"origin" : "cristobalite-instrument",
+	"type" : "patcher",
+	"subtype" : "Undefined",
+	"embed" : 0,
+	"snapshot" : 	{
+		"valuedictionary" : 		{
+			"parameter_values" : 			{
+				"Q" : 13.273229,
+				"duration" : 492.154419,
+				"duration.var" : 0.0,
+				"filter_freq" : 4815.437012,
+				"filterfreqvar" : 0.0,
+				"gain" : 0.0,
+				"gain.var" : 0.944882,
+				"live.dial" : 0.0,
+				"live.dial[1]" : 68.049805,
+				"live.tab" : 3.0,
+				"live.tab[1]" : 1.0,
+				"live.text" : 0.0,
+				"live.text[1]" : 0.0,
+				"live.text[2]" : 1.0,
+				"overlap" : 16.0,
+				"period.factor" : 0.0,
+				"period.var" : 0.0,
+				"pitch" : 0.0,
+				"pitchvar" : 2400.0,
+				"position" : 36.22047,
+				"posvar" : 0.0,
+				"posvarprecise" : 3.0
+			}
+
+		}
+
+	}
+
+}
