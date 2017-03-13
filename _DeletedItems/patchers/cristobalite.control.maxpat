@@ -9,9 +9,9 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 256.0, 95.0, 1305.0, 817.0 ],
+		"rect" : [ 256.0, 84.0, 1068.0, 817.0 ],
 		"bglocked" : 0,
-		"openinpresentation" : 1,
+		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Arial",
@@ -38,44 +38,21 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-8",
-					"maxclass" : "newobj",
+					"angle" : 0.0,
+					"bgcolor" : [ 0.094118, 0.113725, 0.137255, 0.0 ],
+					"border" : 1,
+					"bordercolor" : [ 0.415686, 0.454902, 0.52549, 1.0 ],
+					"id" : "obj-77",
+					"maxclass" : "panel",
+					"mode" : 0,
 					"numinlets" : 1,
-					"numoutlets" : 4,
-					"outlettype" : [ "", "", "", "" ],
-					"patching_rect" : [ 1074.0, 648.0, 58.0, 22.0 ],
-					"restore" : 					{
-						"filter.freq" : [ 5000.0 ],
-						"filter.gain" : [ 0.0 ],
-						"filter.q" : [ 1.0 ],
-						"filter.switch" : [ 0.0 ],
-						"filter.type" : [ 0.0 ],
-						"filter.vgain" : [ 0.0 ],
-						"filterfreqvar" : [ 0.0 ],
-						"grain.duration" : [ 100.0 ],
-						"grain.env" : [ 2.0 ],
-						"grain.interval" : [ 0.0 ],
-						"grain.overlap" : [ 8.0 ],
-						"grain.position" : [ 0.0 ],
-						"grain.resample" : [ 0.0 ],
-						"grain.var.duration" : [ 0.0 ],
-						"grain.var.period" : [ 0.0 ],
-						"grain.var.position" : [ 0.0 ],
-						"grain.var.precise" : [ 3.0 ],
-						"grain.var.resample" : [ 0.0 ],
-						"live.drop" : [ "" ],
-						"play" : [ 0.0 ],
-						"player.direction" : [ 1.0 ],
-						"player.length" : [ 0.0 ],
-						"player.loopswitch" : [ 0.0 ],
-						"player.position" : [ 0.0 ],
-						"player.rate" : [ 1.0 ],
-						"player.start" : [ 0.0 ]
-					}
-,
-					"style" : "",
-					"text" : "autopattr",
-					"varname" : "u391000897"
+					"numoutlets" : 0,
+					"patching_rect" : [ 941.0, 60.0, 120.0, 120.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 309.0, 0.0, 180.5, 170.0 ],
+					"proportion" : 0.39,
+					"rounded" : 16,
+					"style" : ""
 				}
 
 			}
@@ -115,12 +92,12 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 1263.5, 446.0, 44.0, 53.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 495.0, 60.0, 44.0, 53.0 ],
+					"presentation_rect" : [ 572.0, 60.0, 44.0, 53.0 ],
 					"prototypename" : "amount",
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_linknames" : 1,
-							"parameter_longname" : "player.position",
+							"parameter_longname" : "position[1]",
 							"parameter_shortname" : "position",
 							"parameter_type" : 0,
 							"parameter_mmax" : 100.0,
@@ -133,7 +110,7 @@
 					}
 ,
 					"triangle" : 1,
-					"varname" : "player.position"
+					"varname" : "position[1]"
 				}
 
 			}
@@ -305,12 +282,11 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 979.0, 513.875, 31.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 502.0, 24.0, 31.0, 15.0 ],
+					"presentation_rect" : [ 585.0, 24.0, 31.0, 15.0 ],
 					"prototypename" : "onoff",
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_linknames" : 1,
-							"parameter_longname" : "player.loopswitch",
+							"parameter_longname" : "live.text[4]",
 							"parameter_shortname" : "live.text[1]",
 							"parameter_type" : 2,
 							"parameter_mmax" : 1.0,
@@ -322,7 +298,7 @@
 ,
 					"text" : "Off",
 					"texton" : "On",
-					"varname" : "player.loopswitch"
+					"varname" : "live.text[4]"
 				}
 
 			}
@@ -342,9 +318,8 @@
 					"prototypename" : "onoff",
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_linknames" : 1,
-							"parameter_longname" : "filter.switch",
-							"parameter_shortname" : "filter.switch",
+							"parameter_longname" : "live.text[3]",
+							"parameter_shortname" : "live.text[1]",
 							"parameter_type" : 2,
 							"parameter_mmax" : 1.0,
 							"parameter_enum" : [ "Off", "On" ],
@@ -355,7 +330,7 @@
 ,
 					"text" : "Off",
 					"texton" : "On",
-					"varname" : "filter.switch"
+					"varname" : "live.text[3]"
 				}
 
 			}
@@ -489,8 +464,8 @@
 			}
 , 			{
 				"box" : 				{
-					"automation" : "<<",
-					"automationon" : ">>",
+					"automation" : "backward",
+					"automationon" : "forward",
 					"id" : "obj-132",
 					"maxclass" : "live.text",
 					"numinlets" : 1,
@@ -499,16 +474,15 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 1195.5, 229.5, 60.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 462.5, 124.0, 31.0, 15.0 ],
+					"presentation_rect" : [ 499.0, 134.0, 60.0, 15.0 ],
 					"prototypename" : "onoff",
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_linknames" : 1,
-							"parameter_longname" : "player.direction",
+							"parameter_longname" : "live.text[2]",
 							"parameter_shortname" : "live.text[1]",
 							"parameter_type" : 2,
 							"parameter_mmax" : 1.0,
-							"parameter_enum" : [ "<<", ">>" ],
+							"parameter_enum" : [ "backward", "forward" ],
 							"parameter_initial_enable" : 1,
 							"parameter_initial" : [ 1.0 ],
 							"parameter_speedlim" : 0.0
@@ -516,9 +490,9 @@
 
 					}
 ,
-					"text" : "<<",
-					"texton" : ">>",
-					"varname" : "player.direction"
+					"text" : "backward",
+					"texton" : "forward",
+					"varname" : "live.text[2]"
 				}
 
 			}
@@ -532,7 +506,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 1073.5, 222.75, 44.0, 53.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 456.0, 60.0, 44.0, 53.0 ],
+					"presentation_rect" : [ 503.0, 60.0, 44.0, 53.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_linknames" : 1,
@@ -565,12 +539,11 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 926.0, 234.25, 31.0, 15.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 462.5, 24.0, 31.0, 15.0 ],
+					"presentation_rect" : [ 509.5, 24.0, 31.0, 15.0 ],
 					"prototypename" : "onoff",
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_linknames" : 1,
-							"parameter_longname" : "player.start",
+							"parameter_longname" : "live.text[1]",
 							"parameter_shortname" : "live.text[1]",
 							"parameter_type" : 2,
 							"parameter_mmax" : 1.0,
@@ -582,7 +555,7 @@
 ,
 					"text" : "Off",
 					"texton" : "On",
-					"varname" : "player.start"
+					"varname" : "live.text[1]"
 				}
 
 			}
@@ -596,12 +569,12 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 1135.0, 479.875, 44.0, 53.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 495.0, 115.0, 44.0, 53.0 ],
+					"presentation_rect" : [ 572.0, 115.0, 44.0, 53.0 ],
 					"prototypename" : "time",
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_linknames" : 1,
-							"parameter_longname" : "player.length",
+							"parameter_longname" : "loop.length",
 							"parameter_shortname" : "length",
 							"parameter_type" : 0,
 							"parameter_mmax" : 5000.0,
@@ -616,7 +589,7 @@
 ,
 					"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ],
 					"triangle" : 1,
-					"varname" : "player.length"
+					"varname" : "loop.length"
 				}
 
 			}
@@ -662,7 +635,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_linknames" : 1,
-							"parameter_longname" : "grain.position",
+							"parameter_longname" : "position",
 							"parameter_shortname" : "position",
 							"parameter_type" : 0,
 							"parameter_mmax" : 100.0,
@@ -675,7 +648,7 @@
 					}
 ,
 					"triangle" : 1,
-					"varname" : "grain.position"
+					"varname" : "position"
 				}
 
 			}
@@ -689,12 +662,12 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 657.0, 665.0, 44.0, 53.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 407.0, 60.0, 44.0, 53.0 ],
+					"presentation_rect" : [ 441.5, 60.0, 44.0, 53.0 ],
 					"prototypename" : "gain",
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_linknames" : 1,
-							"parameter_longname" : "filter.vgain",
+							"parameter_longname" : "gain.var",
 							"parameter_shortname" : "gain.var",
 							"parameter_type" : 0,
 							"parameter_mmax" : 10.0,
@@ -707,7 +680,7 @@
 					}
 ,
 					"triangle" : 1,
-					"varname" : "filter.vgain"
+					"varname" : "gain.var"
 				}
 
 			}
@@ -721,12 +694,12 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 647.0, 524.0, 44.0, 53.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 407.0, 5.0, 44.0, 53.0 ],
+					"presentation_rect" : [ 441.5, 5.0, 44.0, 53.0 ],
 					"prototypename" : "gain",
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_linknames" : 1,
-							"parameter_longname" : "filter.gain",
+							"parameter_longname" : "gain",
 							"parameter_shortname" : "gain",
 							"parameter_type" : 0,
 							"parameter_mmin" : -70.0,
@@ -740,7 +713,7 @@
 					}
 ,
 					"triangle" : 1,
-					"varname" : "filter.gain"
+					"varname" : "gain"
 				}
 
 			}
@@ -754,13 +727,13 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 432.0, 633.0, 44.0, 53.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 361.0, 112.625, 44.0, 53.0 ],
+					"presentation_rect" : [ 361.0, 60.0, 44.0, 53.0 ],
 					"prototypename" : "amount",
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_linknames" : 1,
 							"parameter_longname" : "filterfreqvar",
-							"parameter_shortname" : "filter.vfreq",
+							"parameter_shortname" : "frq.var",
 							"parameter_type" : 0,
 							"parameter_mmax" : 100.0,
 							"parameter_initial_enable" : 1,
@@ -787,12 +760,12 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 538.0, 526.0, 44.0, 53.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 361.0, 60.0, 44.0, 53.0 ],
+					"presentation_rect" : [ 407.0, 5.0, 44.0, 53.0 ],
 					"prototypename" : "Q",
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_linknames" : 1,
-							"parameter_longname" : "filter.q",
+							"parameter_longname" : "Q",
 							"parameter_shortname" : "Q",
 							"parameter_type" : 0,
 							"parameter_mmin" : 0.1,
@@ -807,7 +780,7 @@
 					}
 ,
 					"triangle" : 1,
-					"varname" : "filter.q"
+					"varname" : "Q"
 				}
 
 			}
@@ -826,7 +799,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_linknames" : 1,
-							"parameter_longname" : "filter.freq",
+							"parameter_longname" : "filter_freq",
 							"parameter_shortname" : "filter.frq",
 							"parameter_type" : 0,
 							"parameter_mmax" : 10000.0,
@@ -840,7 +813,7 @@
 					}
 ,
 					"triangle" : 1,
-					"varname" : "filter.freq"
+					"varname" : "filter_freq"
 				}
 
 			}
@@ -855,13 +828,12 @@
 					"outlettype" : [ "", "", "float" ],
 					"parameter_enable" : 1,
 					"patching_rect" : [ 521.0, 359.5, 37.0, 83.75 ],
-					"pictures" : [ "highcut.svg", "lowcut.svg", "bandpass.svg", "bandpass.svg" ],
+					"pictures" : [ "lowcut.svg", "highcut.svg", "bandpass.svg", "bandpass.svg" ],
 					"presentation" : 1,
 					"presentation_rect" : [ 314.0, 12.5, 37.0, 83.75 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_linknames" : 1,
-							"parameter_longname" : "filter.type",
+							"parameter_longname" : "live.tab[1]",
 							"parameter_shortname" : "live.tab[1]",
 							"parameter_type" : 2,
 							"parameter_enum" : [ "lowpass", "highpass", "resonant", "bandpass" ],
@@ -874,7 +846,7 @@
 					}
 ,
 					"usepicture" : 1,
-					"varname" : "filter.type"
+					"varname" : "live.tab[1]"
 				}
 
 			}
@@ -892,7 +864,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_linknames" : 1,
-							"parameter_longname" : "grain.resample",
+							"parameter_longname" : "pitch",
 							"parameter_shortname" : "pitch",
 							"parameter_type" : 0,
 							"parameter_mmin" : -2400.0,
@@ -905,7 +877,7 @@
 					}
 ,
 					"triangle" : 1,
-					"varname" : "grain.resample"
+					"varname" : "pitch"
 				}
 
 			}
@@ -923,7 +895,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_linknames" : 1,
-							"parameter_longname" : "grain.var.resample",
+							"parameter_longname" : "pitchvar",
 							"parameter_shortname" : "pitch.var",
 							"parameter_type" : 0,
 							"parameter_mmax" : 2400.0,
@@ -935,7 +907,7 @@
 					}
 ,
 					"triangle" : 1,
-					"varname" : "grain.var.resample"
+					"varname" : "pitchvar"
 				}
 
 			}
@@ -953,7 +925,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_linknames" : 1,
-							"parameter_longname" : "grain.var.duration",
+							"parameter_longname" : "duration.var",
 							"parameter_shortname" : "dur.var",
 							"parameter_type" : 0,
 							"parameter_mmax" : 2.0,
@@ -965,7 +937,7 @@
 					}
 ,
 					"triangle" : 1,
-					"varname" : "grain.var.duration"
+					"varname" : "duration.var"
 				}
 
 			}
@@ -983,7 +955,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_linknames" : 1,
-							"parameter_longname" : "grain.var.period",
+							"parameter_longname" : "period.var",
 							"parameter_shortname" : "frq.var",
 							"parameter_type" : 0,
 							"parameter_mmax" : 2.0,
@@ -995,7 +967,7 @@
 					}
 ,
 					"triangle" : 1,
-					"varname" : "grain.var.period"
+					"varname" : "period.var"
 				}
 
 			}
@@ -1028,8 +1000,7 @@
 					"presentation_rect" : [ 172.5, 12.5, 37.0, 88.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_linknames" : 1,
-							"parameter_longname" : "grain.env",
+							"parameter_longname" : "live.tab",
 							"parameter_shortname" : "live.tab",
 							"parameter_type" : 2,
 							"parameter_enum" : [ "sawup", "sawdown", "triangle", "square" ],
@@ -1042,7 +1013,7 @@
 					}
 ,
 					"usepicture" : 1,
-					"varname" : "grain.env"
+					"varname" : "live.tab"
 				}
 
 			}
@@ -1100,7 +1071,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_linknames" : 1,
-							"parameter_longname" : "grain.var.precise",
+							"parameter_longname" : "posvarprecise",
 							"parameter_shortname" : "precise",
 							"parameter_type" : 0,
 							"parameter_mmin" : 3.0,
@@ -1116,7 +1087,7 @@
 ,
 					"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ],
 					"triangle" : 1,
-					"varname" : "grain.var.precise"
+					"varname" : "posvarprecise"
 				}
 
 			}
@@ -1135,7 +1106,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_linknames" : 1,
-							"parameter_longname" : "grain.var.position",
+							"parameter_longname" : "posvar",
 							"parameter_shortname" : "pos.var",
 							"parameter_type" : 0,
 							"parameter_mmax" : 100.0,
@@ -1149,7 +1120,7 @@
 					}
 ,
 					"triangle" : 1,
-					"varname" : "grain.var.position"
+					"varname" : "posvar"
 				}
 
 			}
@@ -1167,7 +1138,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_linknames" : 1,
-							"parameter_longname" : "grain.interval",
+							"parameter_longname" : "interval",
 							"parameter_shortname" : "interval",
 							"parameter_type" : 0,
 							"parameter_mmax" : 2.0,
@@ -1179,7 +1150,7 @@
 					}
 ,
 					"triangle" : 1,
-					"varname" : "grain.interval"
+					"varname" : "interval"
 				}
 
 			}
@@ -1197,7 +1168,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_linknames" : 1,
-							"parameter_longname" : "grain.overlap",
+							"parameter_longname" : "overlap",
 							"parameter_shortname" : "overlap",
 							"parameter_type" : 0,
 							"parameter_mmin" : 1.0,
@@ -1210,7 +1181,7 @@
 					}
 ,
 					"triangle" : 1,
-					"varname" : "grain.overlap"
+					"varname" : "overlap"
 				}
 
 			}
@@ -1256,9 +1227,8 @@
 					"prototypename" : "onoff",
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
-							"parameter_linknames" : 1,
-							"parameter_longname" : "play",
-							"parameter_shortname" : "play",
+							"parameter_longname" : "live.text",
+							"parameter_shortname" : "live.text",
 							"parameter_type" : 2,
 							"parameter_mmax" : 1.0,
 							"parameter_enum" : [ "Off", "On" ],
@@ -1271,7 +1241,7 @@
 ,
 					"text" : "Off",
 					"texton" : "On",
-					"varname" : "play"
+					"varname" : "live.text"
 				}
 
 			}
@@ -1290,7 +1260,7 @@
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_linknames" : 1,
-							"parameter_longname" : "grain.duration",
+							"parameter_longname" : "duration",
 							"parameter_shortname" : "dur",
 							"parameter_type" : 0,
 							"parameter_mmin" : 10.0,
@@ -1306,7 +1276,7 @@
 ,
 					"textcolor" : [ 0.101961, 0.121569, 0.172549, 1.0 ],
 					"triangle" : 1,
-					"varname" : "grain.duration"
+					"varname" : "duration"
 				}
 
 			}
@@ -1357,27 +1327,7 @@
 					"numoutlets" : 0,
 					"patching_rect" : [ 956.0, 75.0, 120.0, 120.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 451.5, 0.0, 93.0, 170.0 ],
-					"proportion" : 0.39,
-					"rounded" : 16,
-					"style" : ""
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"angle" : 0.0,
-					"bgcolor" : [ 0.094118, 0.113725, 0.137255, 0.0 ],
-					"border" : 1,
-					"bordercolor" : [ 0.415686, 0.454902, 0.52549, 1.0 ],
-					"id" : "obj-77",
-					"maxclass" : "panel",
-					"mode" : 0,
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 941.0, 60.0, 120.0, 120.0 ],
-					"presentation" : 1,
-					"presentation_rect" : [ 309.0, 0.0, 142.0, 170.0 ],
+					"presentation_rect" : [ 491.5, 0.0, 136.0, 170.0 ],
 					"proportion" : 0.39,
 					"rounded" : 16,
 					"style" : ""
@@ -1918,32 +1868,32 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-11" : [ "grain.overlap", "overlap", 0 ],
-			"obj-53" : [ "grain.var.position", "pos.var", 0 ],
-			"obj-31" : [ "player.loopswitch", "live.text[1]", 0 ],
-			"obj-65" : [ "filter.q", "Q", 0 ],
-			"obj-49" : [ "grain.env", "live.tab", 0 ],
+			"obj-14" : [ "pitchvar", "pitch.var", 0 ],
+			"obj-5" : [ "position", "position", 0 ],
+			"obj-63" : [ "duration", "dur", 0 ],
+			"obj-98" : [ "gain", "gain", 0 ],
+			"obj-65" : [ "Q", "Q", 0 ],
+			"obj-54" : [ "pitch", "pitch", 0 ],
+			"obj-88" : [ "filterfreqvar", "frq.var", 0 ],
+			"obj-59" : [ "live.text", "live.text", 0 ],
+			"obj-132" : [ "live.text[2]", "live.text[1]", 0 ],
+			"obj-121" : [ "loop.length", "length", 0 ],
+			"obj-53" : [ "posvar", "pos.var", 0 ],
+			"obj-31" : [ "live.text[4]", "live.text[1]", 0 ],
+			"obj-80" : [ "duration.var", "dur.var", 0 ],
+			"obj-55" : [ "live.tab[1]", "live.tab[1]", 0 ],
+			"obj-75" : [ "period.var", "frq.var", 0 ],
 			"obj-1" : [ "live.drop", "live.drop", 0 ],
-			"obj-80" : [ "grain.var.duration", "dur.var", 0 ],
-			"obj-132" : [ "player.direction", "live.text[1]", 0 ],
-			"obj-129" : [ "player.start", "live.text[1]", 0 ],
-			"obj-64" : [ "filter.freq", "filter.frq", 0 ],
-			"obj-57" : [ "filter.vgain", "gain.var", 0 ],
-			"obj-5" : [ "grain.position", "position", 0 ],
-			"obj-114" : [ "grain.var.precise", "precise", 0 ],
-			"obj-69" : [ "player.position", "position", 0 ],
-			"obj-30" : [ "filter.switch", "filter.switch", 0 ],
-			"obj-34" : [ "grain.interval", "interval", 0 ],
-			"obj-75" : [ "grain.var.period", "frq.var", 0 ],
-			"obj-121" : [ "player.length", "length", 0 ],
-			"obj-88" : [ "filterfreqvar", "filter.vfreq", 0 ],
-			"obj-98" : [ "filter.gain", "gain", 0 ],
-			"obj-63" : [ "grain.duration", "dur", 0 ],
-			"obj-54" : [ "grain.resample", "pitch", 0 ],
-			"obj-14" : [ "grain.var.resample", "pitch.var", 0 ],
 			"obj-130" : [ "player.rate", "rate", 0 ],
-			"obj-59" : [ "play", "play", 0 ],
-			"obj-55" : [ "filter.type", "live.tab[1]", 0 ]
+			"obj-57" : [ "gain.var", "gain.var", 0 ],
+			"obj-69" : [ "position[1]", "position", 0 ],
+			"obj-11" : [ "overlap", "overlap", 0 ],
+			"obj-114" : [ "posvarprecise", "precise", 0 ],
+			"obj-64" : [ "filter_freq", "filter.frq", 0 ],
+			"obj-49" : [ "live.tab", "live.tab", 0 ],
+			"obj-129" : [ "live.text[1]", "live.text[1]", 0 ],
+			"obj-34" : [ "interval", "interval", 0 ],
+			"obj-30" : [ "live.text[3]", "live.text[1]", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
@@ -1971,20 +1921,20 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "highcut.svg",
-				"bootpath" : "E:/Projekte/Max7/Projects/cristobalite-100/media",
+				"name" : "lowcut.svg",
+				"bootpath" : "C74:/media/max/picts/m4l-picts",
 				"type" : "svg ",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "lowcut.svg",
-				"bootpath" : "E:/Projekte/Max7/Projects/cristobalite-100/media",
+				"name" : "highcut.svg",
+				"bootpath" : "C74:/media/max/picts/m4l-picts",
 				"type" : "svg ",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bandpass.svg",
-				"bootpath" : "E:/Projekte/Max7/Projects/cristobalite-100/media",
+				"bootpath" : "C74:/media/max/picts/m4l-picts",
 				"type" : "svg ",
 				"implicit" : 1
 			}
@@ -1993,6 +1943,7 @@
 		"styles" : [ 			{
 				"name" : "control",
 				"default" : 				{
+					"fontface" : [ 0 ],
 					"textcolor_inverse" : [ 0.086275, 0.309804, 0.52549, 1.0 ],
 					"bgcolor" : [ 0.681193, 0.750541, 0.758255, 1.0 ],
 					"bgfillcolor" : 					{
@@ -2004,8 +1955,7 @@
 						"proportion" : 0.39,
 						"autogradient" : 0
 					}
-,
-					"fontface" : [ 0 ]
+
 				}
 ,
 				"message" : 				{
@@ -2048,6 +1998,9 @@
 				"name" : "orange",
 				"default" : 				{
 					"color" : [ 0.952941, 0.564706, 0.098039, 1.0 ],
+					"selectioncolor" : [ 0.952941, 0.564706, 0.098039, 1.0 ],
+					"fontsize" : [ 11.0 ],
+					"textjustification" : [ 0 ],
 					"fontname" : [ "Source Code Pro" ],
 					"textcolor_inverse" : [ 0.952941, 0.564706, 0.098039, 1.0 ],
 					"bgfillcolor" : 					{
@@ -2059,10 +2012,7 @@
 						"proportion" : 0.39,
 						"autogradient" : 0
 					}
-,
-					"textjustification" : [ 0 ],
-					"selectioncolor" : [ 0.952941, 0.564706, 0.098039, 1.0 ],
-					"fontsize" : [ 11.0 ]
+
 				}
 ,
 				"parentstyle" : "",

@@ -9,9 +9,9 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 263.0, 232.0, 1409.0, 701.0 ],
+		"rect" : [ 306.0, 415.0, 1147.0, 701.0 ],
 		"bglocked" : 0,
-		"openinpresentation" : 0,
+		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
 		"default_fontface" : 0,
 		"default_fontname" : "Arial",
@@ -38,6 +38,20 @@
 		"subpatcher_template" : "",
 		"showontab" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-3",
+					"maxclass" : "button",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 541.0, 357.0, 24.0, 24.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 265.0, 0.0, 24.0, 24.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-30",
 					"maxclass" : "newobj",
@@ -553,6 +567,8 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
 					"patching_rect" : [ 821.5, 669.0, 24.0, 24.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 265.0, 26.0, 24.0, 24.0 ],
 					"style" : ""
 				}
 
@@ -665,7 +681,7 @@
 					"cursor_shape" : "bar",
 					"cursor_size" : 7,
 					"cursor_visible" : 1,
-					"domain_bounds" : [ 0.0, 2844.739229 ],
+					"domain_bounds" : [ 0.0, 64246.734694 ],
 					"domainruler_bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"domainruler_fgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"domainruler_grid" : 0,
@@ -693,6 +709,8 @@
 					"outputselection" : 0,
 					"outputvalues" : 0,
 					"patching_rect" : [ 189.999969, 460.0, 494.000031, 140.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ -0.000031, 0.0, 263.000031, 115.380951 ],
 					"rangeruler_grid" : 0,
 					"rangeruler_size" : 35,
 					"rangeruler_visible" : 0,
@@ -704,7 +722,7 @@
 					"tabs_position" : 0,
 					"tabs_size" : 20,
 					"tabs_visible" : 1,
-					"toolbar_bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
+					"toolbar_bgcolor" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
 					"toolbar_position" : 1,
 					"toolbar_size" : 22,
 					"toolbar_visible" : 2,
@@ -958,17 +976,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"color" : [ 0.047059, 0.913725, 0.913725, 1.0 ],
-					"destination" : [ "obj-109", 1 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"midpoints" : [ 1160.5, 906.0, 638.5, 906.0 ],
-					"source" : [ "obj-22", 6 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-126", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -1014,6 +1021,17 @@
 					"hidden" : 0,
 					"midpoints" : [ 982.0, 321.0, 738.0, 321.0, 738.0, 606.0, 693.0, 606.0, 693.0, 663.0, 573.0, 663.0, 573.0, 777.0, 497.754395, 777.0 ],
 					"source" : [ "obj-22", 5 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"color" : [ 0.047059, 0.913725, 0.913725, 1.0 ],
+					"destination" : [ "obj-69", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"midpoints" : [ 1160.5, 776.0, 412.254395, 776.0 ],
+					"source" : [ "obj-22", 6 ]
 				}
 
 			}
@@ -1101,6 +1119,26 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-28", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-246", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"order" : 0,
+					"source" : [ "obj-3", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-83", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"order" : 1,
+					"source" : [ "obj-3", 0 ]
 				}
 
 			}
@@ -1401,12 +1439,6 @@
 			}
  ],
 		"dependency_cache" : [ 			{
-				"name" : "cristobalite-100.maxsnap",
-				"bootpath" : "E:/Projekte/Max7/Projects/cristobalite-100/data",
-				"type" : "mx@s",
-				"implicit" : 1
-			}
-, 			{
 				"name" : "loop-mechanics.maxpat",
 				"bootpath" : "E:/Projekte/Max7/Projects/cristobalite-100/patchers",
 				"type" : "JSON",
@@ -1440,106 +1472,9 @@
 			}
  ],
 		"autosave" : 0,
-		"snapshot" : 		{
-			"filetype" : "C74Snapshot",
-			"version" : 2,
-			"minorversion" : 0,
-			"name" : "snapshotlist",
-			"origin" : "jpatcher",
-			"type" : "list",
-			"subtype" : "Undefined",
-			"embed" : 1,
-			"snapshot" : 			{
-				"valuedictionary" : 				{
-					"parameter_values" : 					{
-						"Q" : 13.273229,
-						"duration" : 492.154419,
-						"duration.var" : 0.0,
-						"filter_freq" : 4815.437012,
-						"filterfreqvar" : 0.0,
-						"gain" : 0.0,
-						"gain.var" : 0.944882,
-						"live.dial" : 0.0,
-						"live.dial[1]" : 68.049805,
-						"live.tab" : 3.0,
-						"live.tab[1]" : 1.0,
-						"live.text" : 0.0,
-						"live.text[1]" : 0.0,
-						"live.text[2]" : 1.0,
-						"overlap" : 16.0,
-						"period.factor" : 0.0,
-						"period.var" : 0.0,
-						"pitch" : 0.0,
-						"pitchvar" : 2400.0,
-						"position" : 36.22047,
-						"posvar" : 0.0,
-						"posvarprecise" : 3.0
-					}
-
-				}
-
-			}
-,
-			"snapshotlist" : 			{
-				"current_snapshot" : 0,
-				"entries" : [ 					{
-						"filetype" : "C74Snapshot",
-						"version" : 2,
-						"minorversion" : 0,
-						"name" : "cristobalite-100",
-						"origin" : "cristobalite-100",
-						"type" : "patcher",
-						"subtype" : "Undefined",
-						"embed" : 0,
-						"snapshot" : 						{
-							"valuedictionary" : 							{
-								"parameter_values" : 								{
-									"Q" : 13.273229,
-									"duration" : 492.154419,
-									"duration.var" : 0.0,
-									"filter_freq" : 4815.437012,
-									"filterfreqvar" : 0.0,
-									"gain" : 0.0,
-									"gain.var" : 0.944882,
-									"live.dial" : 0.0,
-									"live.dial[1]" : 68.049805,
-									"live.tab" : 3.0,
-									"live.tab[1]" : 1.0,
-									"live.text" : 0.0,
-									"live.text[1]" : 0.0,
-									"live.text[2]" : 1.0,
-									"overlap" : 16.0,
-									"period.factor" : 0.0,
-									"period.var" : 0.0,
-									"pitch" : 0.0,
-									"pitchvar" : 2400.0,
-									"position" : 36.22047,
-									"posvar" : 0.0,
-									"posvarprecise" : 3.0
-								}
-
-							}
-
-						}
-,
-						"fileref" : 						{
-							"name" : "cristobalite-100",
-							"filename" : "cristobalite-100.maxsnap",
-							"filepath" : "E:/Projekte/Max7/Projects/cristobalite-100/data",
-							"filepos" : -1,
-							"snapshotfileid" : "b6e4ad936d694d9bfd1bbeb7deb096fe"
-						}
-
-					}
- ]
-			}
-
-		}
-,
 		"styles" : [ 			{
 				"name" : "control",
 				"default" : 				{
-					"fontface" : [ 0 ],
 					"textcolor_inverse" : [ 0.086275, 0.309804, 0.52549, 1.0 ],
 					"bgcolor" : [ 0.681193, 0.750541, 0.758255, 1.0 ],
 					"bgfillcolor" : 					{
@@ -1551,7 +1486,8 @@
 						"proportion" : 0.39,
 						"autogradient" : 0
 					}
-
+,
+					"fontface" : [ 0 ]
 				}
 ,
 				"message" : 				{
@@ -1594,9 +1530,6 @@
 				"name" : "orange",
 				"default" : 				{
 					"color" : [ 0.952941, 0.564706, 0.098039, 1.0 ],
-					"selectioncolor" : [ 0.952941, 0.564706, 0.098039, 1.0 ],
-					"fontsize" : [ 11.0 ],
-					"textjustification" : [ 0 ],
 					"fontname" : [ "Source Code Pro" ],
 					"textcolor_inverse" : [ 0.952941, 0.564706, 0.098039, 1.0 ],
 					"bgfillcolor" : 					{
@@ -1608,7 +1541,10 @@
 						"proportion" : 0.39,
 						"autogradient" : 0
 					}
-
+,
+					"textjustification" : [ 0 ],
+					"selectioncolor" : [ 0.952941, 0.564706, 0.098039, 1.0 ],
+					"fontsize" : [ 11.0 ]
 				}
 ,
 				"parentstyle" : "",

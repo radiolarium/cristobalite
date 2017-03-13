@@ -1,0 +1,273 @@
+{
+	"pattrstorage" : 	{
+		"name" : "cristobalite",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"cristobalite.control::filter.freq" : [ 2247.626178 ],
+					"cristobalite.control::filter.gain" : [ 0.0 ],
+					"cristobalite.control::filter.q" : [ 1.0004 ],
+					"cristobalite.control::filter.switch" : [ 0.0 ],
+					"cristobalite.control::filter.type" : [ 2.0 ],
+					"cristobalite.control::filter.vgain" : [ 0.0 ],
+					"cristobalite.control::filterfreqvar" : [ 0.0 ],
+					"cristobalite.control::grain.duration" : [ 100.0004 ],
+					"cristobalite.control::grain.env" : [ 2.0 ],
+					"cristobalite.control::grain.interval" : [ 0.0 ],
+					"cristobalite.control::grain.overlap" : [ 8.0004 ],
+					"cristobalite.control::grain.position" : [ 44.094888 ],
+					"cristobalite.control::grain.resample" : [ 0.0 ],
+					"cristobalite.control::grain.var.duration" : [ 0.0 ],
+					"cristobalite.control::grain.var.period" : [ 0.0 ],
+					"cristobalite.control::grain.var.position" : [ 0.010155 ],
+					"cristobalite.control::grain.var.precise" : [ 3.0 ],
+					"cristobalite.control::grain.var.resample" : [ 0.0 ],
+					"cristobalite.control::live.drop" : [ "" ],
+					"cristobalite.control::play" : [ 1.0 ],
+					"cristobalite.control::player.direction" : [ 1.0 ],
+					"cristobalite.control::player.length" : [ 0.0 ],
+					"cristobalite.control::player.loopswitch" : [ 0.0 ],
+					"cristobalite.control::player.position" : [ 0.0 ],
+					"cristobalite.control::player.rate" : [ 1.0004 ],
+					"cristobalite.control::player.start" : [ 0.0 ]
+				}
+
+			}
+,
+			"2" : 			{
+				"id" : 2,
+				"data" : 				{
+					"cristobalite.control::filter.freq" : [ 1449.975069 ],
+					"cristobalite.control::filter.gain" : [ 0.0 ],
+					"cristobalite.control::filter.q" : [ 1.0003 ],
+					"cristobalite.control::filter.switch" : [ 0.0 ],
+					"cristobalite.control::filter.type" : [ 2.0 ],
+					"cristobalite.control::filter.vgain" : [ 0.0 ],
+					"cristobalite.control::filterfreqvar" : [ 0.0 ],
+					"cristobalite.control::grain.duration" : [ 100.0003 ],
+					"cristobalite.control::grain.env" : [ 2.0 ],
+					"cristobalite.control::grain.interval" : [ 0.0 ],
+					"cristobalite.control::grain.overlap" : [ 8.0003 ],
+					"cristobalite.control::grain.position" : [ 74.016048 ],
+					"cristobalite.control::grain.resample" : [ 0.0 ],
+					"cristobalite.control::grain.var.duration" : [ 0.0 ],
+					"cristobalite.control::grain.var.period" : [ 0.0 ],
+					"cristobalite.control::grain.var.position" : [ 0.014891 ],
+					"cristobalite.control::grain.var.precise" : [ 3.0 ],
+					"cristobalite.control::grain.var.resample" : [ 0.0 ],
+					"cristobalite.control::live.drop" : [ "" ],
+					"cristobalite.control::play" : [ 1.0 ],
+					"cristobalite.control::player.direction" : [ 0.0 ],
+					"cristobalite.control::player.length" : [ 0.0 ],
+					"cristobalite.control::player.loopswitch" : [ 0.0 ],
+					"cristobalite.control::player.position" : [ 0.0 ],
+					"cristobalite.control::player.rate" : [ 21.448432 ],
+					"cristobalite.control::player.start" : [ 0.0 ]
+				}
+
+			}
+,
+			"3" : 			{
+				"id" : 3,
+				"data" : 				{
+					"cristobalite.control::filter.freq" : [ 1519.020364 ],
+					"cristobalite.control::filter.gain" : [ 0.0 ],
+					"cristobalite.control::filter.q" : [ 1.0003 ],
+					"cristobalite.control::filter.switch" : [ 0.0 ],
+					"cristobalite.control::filter.type" : [ 2.0 ],
+					"cristobalite.control::filter.vgain" : [ 0.0 ],
+					"cristobalite.control::filterfreqvar" : [ 0.0 ],
+					"cristobalite.control::grain.duration" : [ 100.0003 ],
+					"cristobalite.control::grain.env" : [ 2.0 ],
+					"cristobalite.control::grain.interval" : [ 0.0 ],
+					"cristobalite.control::grain.overlap" : [ 8.0003 ],
+					"cristobalite.control::grain.position" : [ 44.094788 ],
+					"cristobalite.control::grain.resample" : [ 0.0 ],
+					"cristobalite.control::grain.var.duration" : [ 0.0 ],
+					"cristobalite.control::grain.var.period" : [ 0.0 ],
+					"cristobalite.control::grain.var.position" : [ 4.182694 ],
+					"cristobalite.control::grain.var.precise" : [ 3.0 ],
+					"cristobalite.control::grain.var.resample" : [ 0.0 ],
+					"cristobalite.control::live.drop" : [ "" ],
+					"cristobalite.control::play" : [ 1.0 ],
+					"cristobalite.control::player.direction" : [ 1.0 ],
+					"cristobalite.control::player.length" : [ 0.0 ],
+					"cristobalite.control::player.loopswitch" : [ 0.0 ],
+					"cristobalite.control::player.position" : [ 0.0 ],
+					"cristobalite.control::player.rate" : [ 1.0003 ],
+					"cristobalite.control::player.start" : [ 0.0 ]
+				}
+
+			}
+,
+			"4" : 			{
+				"id" : 4,
+				"data" : 				{
+					"cristobalite.control::filter.freq" : [ 1663.960529 ],
+					"cristobalite.control::filter.gain" : [ 0.0 ],
+					"cristobalite.control::filter.q" : [ 3.342027 ],
+					"cristobalite.control::filter.switch" : [ 1.0 ],
+					"cristobalite.control::filter.type" : [ 2.0 ],
+					"cristobalite.control::filter.vgain" : [ 0.0 ],
+					"cristobalite.control::filterfreqvar" : [ 26.228672 ],
+					"cristobalite.control::grain.duration" : [ 220.852771 ],
+					"cristobalite.control::grain.env" : [ 3.0 ],
+					"cristobalite.control::grain.interval" : [ 0.0 ],
+					"cristobalite.control::grain.overlap" : [ 1.0001 ],
+					"cristobalite.control::grain.position" : [ 26.771951 ],
+					"cristobalite.control::grain.resample" : [ 0.0 ],
+					"cristobalite.control::grain.var.duration" : [ 0.0 ],
+					"cristobalite.control::grain.var.period" : [ 0.15748 ],
+					"cristobalite.control::grain.var.position" : [ 0.000443 ],
+					"cristobalite.control::grain.var.precise" : [ 3.0 ],
+					"cristobalite.control::grain.var.resample" : [ 0.0 ],
+					"cristobalite.control::live.drop" : [ "" ],
+					"cristobalite.control::play" : [ 1.0 ],
+					"cristobalite.control::player.direction" : [ 0.0 ],
+					"cristobalite.control::player.length" : [ 0.0 ],
+					"cristobalite.control::player.loopswitch" : [ 0.0 ],
+					"cristobalite.control::player.position" : [ 0.0 ],
+					"cristobalite.control::player.rate" : [ 21.448432 ],
+					"cristobalite.control::player.start" : [ 0.0 ]
+				}
+
+			}
+,
+			"5" : 			{
+				"id" : 5,
+				"data" : 				{
+					"cristobalite.control::filter.freq" : [ 2247.626253 ],
+					"cristobalite.control::filter.gain" : [ 0.0 ],
+					"cristobalite.control::filter.q" : [ 6.400249 ],
+					"cristobalite.control::filter.switch" : [ 1.0 ],
+					"cristobalite.control::filter.type" : [ 0.0 ],
+					"cristobalite.control::filter.vgain" : [ 0.0 ],
+					"cristobalite.control::filterfreqvar" : [ 9.163549 ],
+					"cristobalite.control::grain.duration" : [ 100.0004 ],
+					"cristobalite.control::grain.env" : [ 2.0 ],
+					"cristobalite.control::grain.interval" : [ 0.0 ],
+					"cristobalite.control::grain.overlap" : [ 16.0 ],
+					"cristobalite.control::grain.position" : [ 7.874416 ],
+					"cristobalite.control::grain.resample" : [ -1171.653543 ],
+					"cristobalite.control::grain.var.duration" : [ 0.0 ],
+					"cristobalite.control::grain.var.period" : [ 0.0 ],
+					"cristobalite.control::grain.var.position" : [ 0.038461 ],
+					"cristobalite.control::grain.var.precise" : [ 3.0 ],
+					"cristobalite.control::grain.var.resample" : [ 0.0 ],
+					"cristobalite.control::live.drop" : [ "" ],
+					"cristobalite.control::play" : [ 1.0 ],
+					"cristobalite.control::player.direction" : [ 0.0 ],
+					"cristobalite.control::player.length" : [ 0.0 ],
+					"cristobalite.control::player.loopswitch" : [ 0.0 ],
+					"cristobalite.control::player.position" : [ 0.0 ],
+					"cristobalite.control::player.rate" : [ 21.448432 ],
+					"cristobalite.control::player.start" : [ 0.0 ]
+				}
+
+			}
+,
+			"6" : 			{
+				"id" : 6,
+				"data" : 				{
+					"cristobalite.control::filter.freq" : [ 2247.626244 ],
+					"cristobalite.control::filter.gain" : [ 0.0 ],
+					"cristobalite.control::filter.q" : [ 1.0 ],
+					"cristobalite.control::filter.switch" : [ 0.0 ],
+					"cristobalite.control::filter.type" : [ 2.0 ],
+					"cristobalite.control::filter.vgain" : [ 0.0 ],
+					"cristobalite.control::filterfreqvar" : [ 0.0 ],
+					"cristobalite.control::grain.duration" : [ 358.585751 ],
+					"cristobalite.control::grain.env" : [ 0.0 ],
+					"cristobalite.control::grain.interval" : [ 0.0 ],
+					"cristobalite.control::grain.overlap" : [ 1.0 ],
+					"cristobalite.control::grain.position" : [ 44.095085 ],
+					"cristobalite.control::grain.resample" : [ 0.0 ],
+					"cristobalite.control::grain.var.duration" : [ 0.724409 ],
+					"cristobalite.control::grain.var.period" : [ 0.0 ],
+					"cristobalite.control::grain.var.position" : [ 0.010355 ],
+					"cristobalite.control::grain.var.precise" : [ 3.0 ],
+					"cristobalite.control::grain.var.resample" : [ 359.055118 ],
+					"cristobalite.control::live.drop" : [ "" ],
+					"cristobalite.control::play" : [ 1.0 ],
+					"cristobalite.control::player.direction" : [ 0.0 ],
+					"cristobalite.control::player.length" : [ 0.0 ],
+					"cristobalite.control::player.loopswitch" : [ 0.0 ],
+					"cristobalite.control::player.position" : [ 0.0 ],
+					"cristobalite.control::player.rate" : [ 21.448432 ],
+					"cristobalite.control::player.start" : [ 0.0 ]
+				}
+
+			}
+,
+			"7" : 			{
+				"id" : 7,
+				"data" : 				{
+					"cristobalite.control::filter.freq" : [ 783.402738 ],
+					"cristobalite.control::filter.gain" : [ 0.0 ],
+					"cristobalite.control::filter.q" : [ 10.370197 ],
+					"cristobalite.control::filter.switch" : [ 1.0 ],
+					"cristobalite.control::filter.type" : [ 2.0 ],
+					"cristobalite.control::filter.vgain" : [ 0.0 ],
+					"cristobalite.control::filterfreqvar" : [ 26.228622 ],
+					"cristobalite.control::grain.duration" : [ 100.00045 ],
+					"cristobalite.control::grain.env" : [ 3.0 ],
+					"cristobalite.control::grain.interval" : [ 0.0 ],
+					"cristobalite.control::grain.overlap" : [ 3.748481 ],
+					"cristobalite.control::grain.position" : [ 74.8036 ],
+					"cristobalite.control::grain.resample" : [ 0.0 ],
+					"cristobalite.control::grain.var.duration" : [ 0.0 ],
+					"cristobalite.control::grain.var.period" : [ 0.0 ],
+					"cristobalite.control::grain.var.position" : [ 0.015041 ],
+					"cristobalite.control::grain.var.precise" : [ 3.0 ],
+					"cristobalite.control::grain.var.resample" : [ 0.0 ],
+					"cristobalite.control::live.drop" : [ "" ],
+					"cristobalite.control::play" : [ 1.0 ],
+					"cristobalite.control::player.direction" : [ 0.0 ],
+					"cristobalite.control::player.length" : [ 0.0 ],
+					"cristobalite.control::player.loopswitch" : [ 0.0 ],
+					"cristobalite.control::player.position" : [ 0.0 ],
+					"cristobalite.control::player.rate" : [ 21.448432 ],
+					"cristobalite.control::player.start" : [ 0.0 ]
+				}
+
+			}
+,
+			"8" : 			{
+				"id" : 8,
+				"data" : 				{
+					"cristobalite.control::filter.freq" : [ 783.402738 ],
+					"cristobalite.control::filter.gain" : [ 0.0 ],
+					"cristobalite.control::filter.q" : [ 10.370197 ],
+					"cristobalite.control::filter.switch" : [ 0.0 ],
+					"cristobalite.control::filter.type" : [ 2.0 ],
+					"cristobalite.control::filter.vgain" : [ 0.0 ],
+					"cristobalite.control::filterfreqvar" : [ 26.228622 ],
+					"cristobalite.control::grain.duration" : [ 100.00045 ],
+					"cristobalite.control::grain.env" : [ 1.0 ],
+					"cristobalite.control::grain.interval" : [ 0.0 ],
+					"cristobalite.control::grain.overlap" : [ 2.181102 ],
+					"cristobalite.control::grain.position" : [ 74.8036 ],
+					"cristobalite.control::grain.resample" : [ 1322.834646 ],
+					"cristobalite.control::grain.var.duration" : [ 0.0 ],
+					"cristobalite.control::grain.var.period" : [ 0.0 ],
+					"cristobalite.control::grain.var.position" : [ 0.015041 ],
+					"cristobalite.control::grain.var.precise" : [ 3.0 ],
+					"cristobalite.control::grain.var.resample" : [ 56.692913 ],
+					"cristobalite.control::live.drop" : [ "" ],
+					"cristobalite.control::play" : [ 1.0 ],
+					"cristobalite.control::player.direction" : [ 0.0 ],
+					"cristobalite.control::player.length" : [ 0.0 ],
+					"cristobalite.control::player.loopswitch" : [ 0.0 ],
+					"cristobalite.control::player.position" : [ 0.0 ],
+					"cristobalite.control::player.rate" : [ 21.448432 ],
+					"cristobalite.control::player.start" : [ 0.0 ]
+				}
+
+			}
+
+		}
+
+	}
+
+}
