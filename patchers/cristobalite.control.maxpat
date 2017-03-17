@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 256.0, 95.0, 1305.0, 817.0 ],
+		"rect" : [ 86.0, 97.0, 927.0, 817.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -38,6 +38,20 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-9",
+					"linecount" : 2,
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 442.0, 302.0, 55.0, 36.0 ],
+					"style" : "",
+					"text" : "highpass"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-8",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -49,11 +63,11 @@
 						"filter.gain" : [ 0.0 ],
 						"filter.q" : [ 1.0 ],
 						"filter.switch" : [ 0.0 ],
-						"filter.type" : [ 0.0 ],
+						"filter.type" : [ 1.0 ],
 						"filter.vgain" : [ 0.0 ],
 						"filterfreqvar" : [ 0.0 ],
 						"grain.duration" : [ 100.0 ],
-						"grain.env" : [ 2.0 ],
+						"grain.env" : [ 3.0 ],
 						"grain.interval" : [ 0.0 ],
 						"grain.overlap" : [ 8.0 ],
 						"grain.position" : [ 0.0 ],
@@ -75,7 +89,7 @@
 ,
 					"style" : "",
 					"text" : "autopattr",
-					"varname" : "u391000897"
+					"varname" : "u827002695"
 				}
 
 			}
@@ -1724,6 +1738,17 @@
 					"destination" : [ "obj-36", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
+					"order" : 0,
+					"source" : [ "obj-55", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-9", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"order" : 1,
 					"source" : [ "obj-55", 1 ]
 				}
 
@@ -1918,32 +1943,32 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-11" : [ "grain.overlap", "overlap", 0 ],
-			"obj-53" : [ "grain.var.position", "pos.var", 0 ],
-			"obj-31" : [ "player.loopswitch", "live.text[1]", 0 ],
+			"obj-121" : [ "player.length", "length", 0 ],
 			"obj-65" : [ "filter.q", "Q", 0 ],
 			"obj-49" : [ "grain.env", "live.tab", 0 ],
-			"obj-1" : [ "live.drop", "live.drop", 0 ],
 			"obj-80" : [ "grain.var.duration", "dur.var", 0 ],
-			"obj-132" : [ "player.direction", "live.text[1]", 0 ],
-			"obj-129" : [ "player.start", "live.text[1]", 0 ],
 			"obj-64" : [ "filter.freq", "filter.frq", 0 ],
+			"obj-130" : [ "player.rate", "rate", 0 ],
 			"obj-57" : [ "filter.vgain", "gain.var", 0 ],
 			"obj-5" : [ "grain.position", "position", 0 ],
 			"obj-114" : [ "grain.var.precise", "precise", 0 ],
-			"obj-69" : [ "player.position", "position", 0 ],
+			"obj-59" : [ "play", "play", 0 ],
+			"obj-31" : [ "player.loopswitch", "live.text[1]", 0 ],
 			"obj-30" : [ "filter.switch", "filter.switch", 0 ],
+			"obj-88" : [ "filterfreqvar", "filter.vfreq", 0 ],
 			"obj-34" : [ "grain.interval", "interval", 0 ],
 			"obj-75" : [ "grain.var.period", "frq.var", 0 ],
-			"obj-121" : [ "player.length", "length", 0 ],
-			"obj-88" : [ "filterfreqvar", "filter.vfreq", 0 ],
+			"obj-132" : [ "player.direction", "live.text[1]", 0 ],
 			"obj-98" : [ "filter.gain", "gain", 0 ],
+			"obj-129" : [ "player.start", "live.text[1]", 0 ],
 			"obj-63" : [ "grain.duration", "dur", 0 ],
 			"obj-54" : [ "grain.resample", "pitch", 0 ],
+			"obj-1" : [ "live.drop", "live.drop", 0 ],
 			"obj-14" : [ "grain.var.resample", "pitch.var", 0 ],
-			"obj-130" : [ "player.rate", "rate", 0 ],
-			"obj-59" : [ "play", "play", 0 ],
-			"obj-55" : [ "filter.type", "live.tab[1]", 0 ]
+			"obj-69" : [ "player.position", "position", 0 ],
+			"obj-55" : [ "filter.type", "live.tab[1]", 0 ],
+			"obj-11" : [ "grain.overlap", "overlap", 0 ],
+			"obj-53" : [ "grain.var.position", "pos.var", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
@@ -1993,7 +2018,6 @@
 		"styles" : [ 			{
 				"name" : "control",
 				"default" : 				{
-					"textcolor_inverse" : [ 0.086275, 0.309804, 0.52549, 1.0 ],
 					"bgcolor" : [ 0.681193, 0.750541, 0.758255, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
@@ -2005,11 +2029,11 @@
 						"autogradient" : 0
 					}
 ,
+					"textcolor_inverse" : [ 0.086275, 0.309804, 0.52549, 1.0 ],
 					"fontface" : [ 0 ]
 				}
 ,
 				"message" : 				{
-					"textcolor_inverse" : [ 0.086275, 0.309804, 0.52549, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -2019,7 +2043,8 @@
 						"proportion" : 0.39,
 						"autogradient" : 0
 					}
-
+,
+					"textcolor_inverse" : [ 0.086275, 0.309804, 0.52549, 1.0 ]
 				}
 ,
 				"parentstyle" : "redness",
@@ -2028,7 +2053,6 @@
 , 			{
 				"name" : "control2",
 				"default" : 				{
-					"textcolor_inverse" : [ 0.086275, 0.309804, 0.52549, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color" : [ 0.681193, 0.750541, 0.758255, 1.0 ],
@@ -2038,7 +2062,8 @@
 						"proportion" : 0.39,
 						"autogradient" : 0
 					}
-
+,
+					"textcolor_inverse" : [ 0.086275, 0.309804, 0.52549, 1.0 ]
 				}
 ,
 				"parentstyle" : "chiba",
@@ -2049,7 +2074,6 @@
 				"default" : 				{
 					"color" : [ 0.952941, 0.564706, 0.098039, 1.0 ],
 					"fontname" : [ "Source Code Pro" ],
-					"textcolor_inverse" : [ 0.952941, 0.564706, 0.098039, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
@@ -2062,6 +2086,7 @@
 ,
 					"textjustification" : [ 0 ],
 					"selectioncolor" : [ 0.952941, 0.564706, 0.098039, 1.0 ],
+					"textcolor_inverse" : [ 0.952941, 0.564706, 0.098039, 1.0 ],
 					"fontsize" : [ 11.0 ]
 				}
 ,

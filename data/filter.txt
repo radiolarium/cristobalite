@@ -1,0 +1,4 @@
+0, "lowpass";
+1, "highpass";
+2, "resonant";
+3, "bandpass";

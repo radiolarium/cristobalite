@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 227.0, 89.0, 1533.0, 851.0 ],
+		"rect" : [ 174.0, 108.0, 1255.0, 892.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,287 @@
 		"showontab" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-33",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 35.0, 231.0, 60.0, 22.0 ],
+					"style" : "",
+					"text" : "loadbang"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-62",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "bang" ],
+					"patching_rect" : [ 445.0, 607.0, 60.0, 22.0 ],
+					"style" : "",
+					"text" : "loadbang"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-61",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 65.0, 713.0, 66.0, 22.0 ],
+					"style" : "",
+					"text" : "writeagain"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-59",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 570.0, 780.0, 29.5, 22.0 ],
+					"style" : "",
+					"text" : "8"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-56",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 562.0, 830.0, 29.5, 22.0 ],
+					"style" : "",
+					"text" : "7"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-54",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 510.0, 821.0, 29.5, 22.0 ],
+					"style" : "",
+					"text" : "6"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-48",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 473.0, 844.0, 29.5, 22.0 ],
+					"style" : "",
+					"text" : "5"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-46",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 394.0, 822.0, 29.5, 22.0 ],
+					"style" : "",
+					"text" : "4"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-43",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 526.0, 776.0, 29.5, 22.0 ],
+					"style" : "",
+					"text" : "3"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-40",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 471.5, 735.0, 29.5, 22.0 ],
+					"style" : "",
+					"text" : "2"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-39",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 465.0, 779.0, 29.5, 22.0 ],
+					"style" : "",
+					"text" : "1"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-34",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 356.0, 640.0, 64.0, 22.0 ],
+					"style" : "",
+					"text" : "readagain"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-25",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 576.0, 554.0, 71.0, 22.0 ],
+					"style" : "",
+					"text" : "prepend ad"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-24",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 577.0, 511.0, 57.0, 22.0 ],
+					"style" : "",
+					"text" : "pak 0. 0."
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial Bold",
+					"fontsize" : 10.0,
+					"id" : "obj-30",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 650.0, 485.0, 17.0, 18.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 810.0, 145.0, 17.0, 18.0 ],
+					"style" : "",
+					"text" : "D"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontname" : "Arial Bold",
+					"fontsize" : 10.0,
+					"id" : "obj-29",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 560.0, 485.0, 17.0, 18.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 810.0, 129.0, 17.0, 18.0 ],
+					"style" : "",
+					"text" : "A"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"annotation" : "Distance between the cursor position and center of the graphic space.",
+					"appearance" : 1,
+					"id" : "obj-21",
+					"maxclass" : "live.numbox",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "float" ],
+					"parameter_enable" : 1,
+					"patching_rect" : [ 615.0, 485.0, 36.0, 15.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 825.0, 145.0, 40.0, 15.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_order" : 1,
+							"parameter_linknames" : 1,
+							"parameter_longname" : "Distance",
+							"parameter_shortname" : "Distance",
+							"parameter_type" : 0,
+							"parameter_mmin" : -1.4,
+							"parameter_mmax" : 1.4,
+							"parameter_initial_enable" : 1,
+							"parameter_initial" : [ 0.0 ],
+							"parameter_unitstyle" : 1
+						}
+
+					}
+,
+					"varname" : "Distance"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"annotation" : "Azimuth position of the cursor relative to the vertical center axis of the graphic space.",
+					"appearance" : 1,
+					"id" : "obj-26",
+					"maxclass" : "live.numbox",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "float" ],
+					"parameter_enable" : 1,
+					"patching_rect" : [ 575.0, 485.0, 36.0, 15.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 825.0, 129.0, 40.0, 15.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_order" : 1,
+							"parameter_linknames" : 1,
+							"parameter_longname" : "Azimuth",
+							"parameter_shortname" : "Azimuth",
+							"parameter_type" : 0,
+							"parameter_mmin" : -180.0,
+							"parameter_mmax" : 180.0,
+							"parameter_initial_enable" : 1,
+							"parameter_initial" : [ 0 ],
+							"parameter_unitstyle" : 9,
+							"parameter_units" : "°"
+						}
+
+					}
+,
+					"varname" : "Azimuth"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-37",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -47,20 +328,6 @@
 					"patching_rect" : [ 758.0, 217.0, 76.333336, 22.0 ],
 					"style" : "",
 					"text" : "t b f"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-25",
-					"linecount" : 2,
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 569.0, 499.0, 50.0, 36.0 ],
-					"style" : "",
-					"text" : "8006.818689"
 				}
 
 			}
@@ -182,7 +449,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 1095.0, 788.0, 50.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1365.0, 143.880951, 50.0, 22.0 ],
+					"presentation_rect" : [ 1365.0, 142.880951, 50.0, 22.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "number[1]",
@@ -214,7 +481,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 96.0, 511.0, 52.0, 16.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1197.0, 149.380951, 52.0, 16.0 ],
+					"presentation_rect" : [ 1197.0, 148.380951, 52.0, 16.0 ],
 					"prototypename" : "trigger.default",
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
@@ -309,7 +576,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 45.5, 265.0, 39.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1242.0, 117.380951, 36.0, 22.0 ],
+					"presentation_rect" : [ 1242.0, 116.380951, 36.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -338,7 +605,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 273.0, 217.0, 100.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1337.0, 116.380951, 90.0, 22.0 ],
+					"presentation_rect" : [ 1337.0, 115.380951, 90.0, 22.0 ],
 					"style" : ""
 				}
 
@@ -458,7 +725,7 @@
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 462.0, 236.0, 39.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1154.0, 146.380951, 39.0, 22.0 ],
+					"presentation_rect" : [ 1154.0, 145.380951, 39.0, 22.0 ],
 					"style" : "",
 					"text" : "getxy"
 				}
@@ -631,7 +898,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 1095.0, 692.0, 50.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1417.0, 143.880951, 50.0, 22.0 ],
+					"presentation_rect" : [ 1417.0, 142.880951, 50.0, 22.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "number[2]",
@@ -660,7 +927,7 @@
 					"parameter_enable" : 1,
 					"patching_rect" : [ 731.0, 631.5, 50.0, 22.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1184.0, 117.380951, 50.0, 22.0 ],
+					"presentation_rect" : [ 1184.0, 116.380951, 50.0, 22.0 ],
 					"saved_attribute_attributes" : 					{
 						"valueof" : 						{
 							"parameter_longname" : "number",
@@ -701,7 +968,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 685.0, 631.5, 24.0, 24.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1154.0, 116.380951, 24.0, 24.0 ],
+					"presentation_rect" : [ 1154.0, 115.380951, 24.0, 24.0 ],
 					"style" : ""
 				}
 
@@ -734,7 +1001,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 96.0, 283.0, 52.0, 23.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1280.0, 117.380951, 52.0, 23.0 ],
+					"presentation_rect" : [ 1280.0, 116.380951, 52.0, 23.0 ],
 					"style" : ""
 				}
 
@@ -785,9 +1052,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 445.0, 587.0, 135.0, 22.0 ],
+					"patching_rect" : [ 445.0, 634.5, 147.0, 22.0 ],
 					"style" : "",
-					"text" : "pattrstorage cristobalite"
+					"text" : "pattrstorage ---cristobalite"
 				}
 
 			}
@@ -799,10 +1066,10 @@
 					"numinlets" : 1,
 					"numoutlets" : 4,
 					"outlettype" : [ "preset", "int", "preset", "int" ],
-					"patching_rect" : [ 445.0, 633.0, 102.0, 56.0 ],
-					"pattrstorage" : "cristobalite",
+					"patching_rect" : [ 445.0, 667.0, 102.0, 56.0 ],
+					"pattrstorage" : "---cristobalite",
 					"presentation" : 1,
-					"presentation_rect" : [ 1244.0, 148.380951, 116.439026, 17.5 ],
+					"presentation_rect" : [ 1244.0, 147.380951, 116.439026, 17.5 ],
 					"style" : ""
 				}
 
@@ -846,20 +1113,31 @@
 					"knobcolor" : [ 0.960784, 0.827451, 0.156863, 1.0 ],
 					"knobsize" : 11.3,
 					"maxclass" : "nodes",
-					"mousemode" : 2,
+					"mousemode" : 1,
 					"nodecolor" : [ 0.376471, 0.384314, 0.4, 1.0 ],
 					"nodenumber" : 8,
-					"nsize" : [ 0.47, 0.4, 0.47, 0.47, 0.146, 0.15, 0.2, 0.18 ],
+					"nsize" : [ 0.297, 0.4, 0.496, 0.33, 0.24, 0.15, 0.2, 0.18 ],
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "", "", "" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 286.0, 297.5, 226.0, 202.0 ],
+					"parameter_enable" : 1,
+					"patching_rect" : [ 286.0, 299.5, 226.0, 202.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 965.0, 1.0, 185.0, 167.380951 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_longname" : "nodes",
+							"parameter_shortname" : "nodes",
+							"parameter_type" : 3,
+							"parameter_invisible" : 1
+						}
+
+					}
+,
 					"style" : "",
-					"xplace" : [ 0.252212, 0.163717, 0.685841, 0.79646, 0.162162, 0.964602, 0.356757, 0.90708 ],
-					"yplace" : [ 0.695545, 0.185644, 0.269802, 0.759901, 0.501849, 0.616337, 0.926031, 0.106436 ]
+					"varname" : "nodes",
+					"xplace" : [ 0.247788, 0.163717, 0.685841, 0.79646, 0.132743, 0.964602, 0.557522, 0.90708 ],
+					"yplace" : [ 0.918317, 0.185644, 0.269802, 0.759901, 0.611386, 0.616337, 0.898515, 0.106436 ]
 				}
 
 			}
@@ -879,8 +1157,8 @@
 , 			{
 				"box" : 				{
 					"active" : 					{
-						"cristobalite.control::filter.gain" : 0,
-						"cristobalite.control::grain.var.precise" : 0,
+						"cristobalite.control::grain-gain" : 0,
+						"cristobalite.control::grain-var-precise" : 0,
 						"cristobalite.control::live.drop" : 0,
 						"cristobalite.control::play" : 0,
 						"cristobalite.control::player.direction" : 0,
@@ -893,22 +1171,308 @@
 						"amplitude-envelope::function" : 0
 					}
 ,
-					"autorestore" : "cristobalite.json",
+					"autorestore" : "---cristobalite.json",
 					"id" : "obj-6",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 191.0, 720.0, 135.0, 22.0 ],
+					"patching_rect" : [ 191.0, 720.0, 229.0, 22.0 ],
+					"saved_attribute_attributes" : 					{
+						"valueof" : 						{
+							"parameter_initial" : [ 								{
+									"pattrstorage" : 									{
+										"name" : "---cristobalite",
+										"slots" : 										{
+											"1" : 											{
+												"id" : 1,
+												"data" : 												{
+													"cristobalite.control::filter-freq" : [ 0.0 ],
+													"cristobalite.control::filter-freq-var" : [ 0.0 ],
+													"cristobalite.control::filter-q" : [ 0.0 ],
+													"cristobalite.control::filter-type" : [ 0 ],
+													"cristobalite.control::grain-duration" : [ 0.325 ],
+													"cristobalite.control::grain-env" : [ 2 ],
+													"cristobalite.control::grain-gain" : [ 70.0 ],
+													"cristobalite.control::grain-gain-var" : [ 0.0 ],
+													"cristobalite.control::grain-interval" : [ 0.0 ],
+													"cristobalite.control::grain-overlap" : [ 7.2 ],
+													"cristobalite.control::grain-pitch" : [ 2400.0 ],
+													"cristobalite.control::grain-position" : [ 22.5 ],
+													"cristobalite.control::grain-var-duration" : [ 0.0 ],
+													"cristobalite.control::grain-var-period" : [ 0.0 ],
+													"cristobalite.control::grain-var-pitch" : [ 0.0 ],
+													"cristobalite.control::grain-var-position" : [ 0.025 ],
+													"cristobalite.control::grain-var-precise" : [ 0.0 ],
+													"cristobalite.control::live.drop" : [ "" ],
+													"cristobalite.control::play" : [ 1.0 ],
+													"cristobalite.control::player.direction" : [ 1.0 ],
+													"cristobalite.control::player.length" : [ 0.0 ],
+													"cristobalite.control::player.loopswitch" : [ 0.0 ],
+													"cristobalite.control::player.position" : [ 0.0 ],
+													"cristobalite.control::player.rate" : [ 1.0 ],
+													"cristobalite.control::player.start" : [ 0.0 ],
+													"amplitude-envelope::function" : [ 1152.308716, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 9.193769, 1.0, 0, 0.595, 1152.308716, 0.0, 0, -0.6, "curve" ]
+												}
+
+											}
+,
+											"2" : 											{
+												"id" : 2,
+												"data" : 												{
+													"cristobalite.control::filter-freq" : [ 0.0 ],
+													"cristobalite.control::filter-freq-var" : [ 0.0 ],
+													"cristobalite.control::filter-q" : [ 0.0 ],
+													"cristobalite.control::filter-type" : [ 0 ],
+													"cristobalite.control::grain-duration" : [ 0.325 ],
+													"cristobalite.control::grain-env" : [ 2 ],
+													"cristobalite.control::grain-gain" : [ 70.0 ],
+													"cristobalite.control::grain-gain-var" : [ 0.0 ],
+													"cristobalite.control::grain-interval" : [ 0.0 ],
+													"cristobalite.control::grain-overlap" : [ 7.2 ],
+													"cristobalite.control::grain-pitch" : [ 2400.0 ],
+													"cristobalite.control::grain-position" : [ 65.0 ],
+													"cristobalite.control::grain-var-duration" : [ 0.0 ],
+													"cristobalite.control::grain-var-period" : [ 0.0 ],
+													"cristobalite.control::grain-var-pitch" : [ 0.0 ],
+													"cristobalite.control::grain-var-position" : [ 0.025 ],
+													"cristobalite.control::grain-var-precise" : [ 0.0 ],
+													"cristobalite.control::live.drop" : [ "" ],
+													"cristobalite.control::play" : [ 1.0 ],
+													"cristobalite.control::player.direction" : [ 1.0 ],
+													"cristobalite.control::player.length" : [ 0.0 ],
+													"cristobalite.control::player.loopswitch" : [ 0.0 ],
+													"cristobalite.control::player.position" : [ 0.0 ],
+													"cristobalite.control::player.rate" : [ 1.0 ],
+													"cristobalite.control::player.start" : [ 0.0 ],
+													"amplitude-envelope::function" : [ 1152.308716, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 9.193769, 1.0, 0, 0.595, 1152.308716, 0.0, 0, -0.6, "curve" ]
+												}
+
+											}
+,
+											"3" : 											{
+												"id" : 3,
+												"data" : 												{
+													"cristobalite.control::filter-freq" : [ 0.0 ],
+													"cristobalite.control::filter-freq-var" : [ 0.0 ],
+													"cristobalite.control::filter-q" : [ 0.0 ],
+													"cristobalite.control::filter-type" : [ 0 ],
+													"cristobalite.control::grain-duration" : [ 0.325 ],
+													"cristobalite.control::grain-env" : [ 2 ],
+													"cristobalite.control::grain-gain" : [ 70.0 ],
+													"cristobalite.control::grain-gain-var" : [ 0.0 ],
+													"cristobalite.control::grain-interval" : [ 0.0 ],
+													"cristobalite.control::grain-overlap" : [ 7.2 ],
+													"cristobalite.control::grain-pitch" : [ 2400.0 ],
+													"cristobalite.control::grain-position" : [ 50.0 ],
+													"cristobalite.control::grain-var-duration" : [ 0.0 ],
+													"cristobalite.control::grain-var-period" : [ 0.0 ],
+													"cristobalite.control::grain-var-pitch" : [ 0.0 ],
+													"cristobalite.control::grain-var-position" : [ 0.025 ],
+													"cristobalite.control::grain-var-precise" : [ 0.0 ],
+													"cristobalite.control::live.drop" : [ "" ],
+													"cristobalite.control::play" : [ 1.0 ],
+													"cristobalite.control::player.direction" : [ 1.0 ],
+													"cristobalite.control::player.length" : [ 0.0 ],
+													"cristobalite.control::player.loopswitch" : [ 0.0 ],
+													"cristobalite.control::player.position" : [ 0.0 ],
+													"cristobalite.control::player.rate" : [ 1.0 ],
+													"cristobalite.control::player.start" : [ 0.0 ],
+													"amplitude-envelope::function" : [ 1152.308716, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 9.193769, 1.0, 0, 0.595, 1152.308716, 0.0, 0, -0.6, "curve" ]
+												}
+
+											}
+,
+											"4" : 											{
+												"id" : 4,
+												"data" : 												{
+													"cristobalite.control::filter-freq" : [ 0.0 ],
+													"cristobalite.control::filter-freq-var" : [ 0.0 ],
+													"cristobalite.control::filter-q" : [ 0.0 ],
+													"cristobalite.control::filter-type" : [ 0 ],
+													"cristobalite.control::grain-duration" : [ 0.325 ],
+													"cristobalite.control::grain-env" : [ 2 ],
+													"cristobalite.control::grain-gain" : [ 70.0 ],
+													"cristobalite.control::grain-gain-var" : [ 0.0 ],
+													"cristobalite.control::grain-interval" : [ 0.0 ],
+													"cristobalite.control::grain-overlap" : [ 7.2 ],
+													"cristobalite.control::grain-pitch" : [ 1200.0 ],
+													"cristobalite.control::grain-position" : [ 65.0 ],
+													"cristobalite.control::grain-var-duration" : [ 0.0 ],
+													"cristobalite.control::grain-var-period" : [ 0.0 ],
+													"cristobalite.control::grain-var-pitch" : [ 0.0 ],
+													"cristobalite.control::grain-var-position" : [ 0.025 ],
+													"cristobalite.control::grain-var-precise" : [ 0.0 ],
+													"cristobalite.control::live.drop" : [ "" ],
+													"cristobalite.control::play" : [ 1.0 ],
+													"cristobalite.control::player.direction" : [ 1.0 ],
+													"cristobalite.control::player.length" : [ 0.0 ],
+													"cristobalite.control::player.loopswitch" : [ 0.0 ],
+													"cristobalite.control::player.position" : [ 0.0 ],
+													"cristobalite.control::player.rate" : [ 1.0 ],
+													"cristobalite.control::player.start" : [ 0.0 ],
+													"amplitude-envelope::function" : [ 1152.308716, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 9.193769, 1.0, 0, 0.595, 1152.308716, 0.0, 0, -0.6, "curve" ]
+												}
+
+											}
+,
+											"5" : 											{
+												"id" : 5,
+												"data" : 												{
+													"cristobalite.control::filter-freq" : [ 0.0 ],
+													"cristobalite.control::filter-freq-var" : [ 0.0 ],
+													"cristobalite.control::filter-q" : [ 0.0 ],
+													"cristobalite.control::filter-type" : [ 0 ],
+													"cristobalite.control::grain-duration" : [ 0.325 ],
+													"cristobalite.control::grain-env" : [ 2 ],
+													"cristobalite.control::grain-gain" : [ 70.0 ],
+													"cristobalite.control::grain-gain-var" : [ 0.0 ],
+													"cristobalite.control::grain-interval" : [ 0.0 ],
+													"cristobalite.control::grain-overlap" : [ 7.2 ],
+													"cristobalite.control::grain-pitch" : [ 1200.0 ],
+													"cristobalite.control::grain-position" : [ 65.0 ],
+													"cristobalite.control::grain-var-duration" : [ 0.0 ],
+													"cristobalite.control::grain-var-period" : [ 0.0 ],
+													"cristobalite.control::grain-var-pitch" : [ 0.0 ],
+													"cristobalite.control::grain-var-position" : [ 0.675 ],
+													"cristobalite.control::grain-var-precise" : [ 0.0 ],
+													"cristobalite.control::live.drop" : [ "" ],
+													"cristobalite.control::play" : [ 1.0 ],
+													"cristobalite.control::player.direction" : [ 1.0 ],
+													"cristobalite.control::player.length" : [ 0.0 ],
+													"cristobalite.control::player.loopswitch" : [ 0.0 ],
+													"cristobalite.control::player.position" : [ 0.0 ],
+													"cristobalite.control::player.rate" : [ 1.0 ],
+													"cristobalite.control::player.start" : [ 0.0 ],
+													"amplitude-envelope::function" : [ 1152.308716, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 9.193769, 1.0, 0, 0.595, 1152.308716, 0.0, 0, -0.6, "curve" ]
+												}
+
+											}
+,
+											"6" : 											{
+												"id" : 6,
+												"data" : 												{
+													"cristobalite.control::filter-freq" : [ 0.0 ],
+													"cristobalite.control::filter-freq-var" : [ 0.0 ],
+													"cristobalite.control::filter-q" : [ 0.0 ],
+													"cristobalite.control::filter-type" : [ 0 ],
+													"cristobalite.control::grain-duration" : [ 0.475 ],
+													"cristobalite.control::grain-env" : [ 1 ],
+													"cristobalite.control::grain-gain" : [ 70.0 ],
+													"cristobalite.control::grain-gain-var" : [ 0.0 ],
+													"cristobalite.control::grain-interval" : [ 0.0 ],
+													"cristobalite.control::grain-overlap" : [ 5.6 ],
+													"cristobalite.control::grain-pitch" : [ 1200.0 ],
+													"cristobalite.control::grain-position" : [ 65.0 ],
+													"cristobalite.control::grain-var-duration" : [ 0.0 ],
+													"cristobalite.control::grain-var-period" : [ 0.0 ],
+													"cristobalite.control::grain-var-pitch" : [ 0.0 ],
+													"cristobalite.control::grain-var-position" : [ 0.775 ],
+													"cristobalite.control::grain-var-precise" : [ 0.0 ],
+													"cristobalite.control::live.drop" : [ "" ],
+													"cristobalite.control::play" : [ 1.0 ],
+													"cristobalite.control::player.direction" : [ 1.0 ],
+													"cristobalite.control::player.length" : [ 0.0 ],
+													"cristobalite.control::player.loopswitch" : [ 0.0 ],
+													"cristobalite.control::player.position" : [ 0.0 ],
+													"cristobalite.control::player.rate" : [ 1.0 ],
+													"cristobalite.control::player.start" : [ 0.0 ],
+													"amplitude-envelope::function" : [ 1152.308716, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 9.193769, 1.0, 0, 0.595, 1152.308716, 0.0, 0, -0.6, "curve" ]
+												}
+
+											}
+,
+											"7" : 											{
+												"id" : 7,
+												"data" : 												{
+													"cristobalite.control::filter-freq" : [ 0.0 ],
+													"cristobalite.control::filter-freq-var" : [ 0.0 ],
+													"cristobalite.control::filter-q" : [ 0.0 ],
+													"cristobalite.control::filter-type" : [ 0 ],
+													"cristobalite.control::grain-duration" : [ 0.475 ],
+													"cristobalite.control::grain-env" : [ 1 ],
+													"cristobalite.control::grain-gain" : [ 70.0 ],
+													"cristobalite.control::grain-gain-var" : [ 0.0 ],
+													"cristobalite.control::grain-interval" : [ 0.0 ],
+													"cristobalite.control::grain-overlap" : [ 5.6 ],
+													"cristobalite.control::grain-pitch" : [ 1200.0 ],
+													"cristobalite.control::grain-position" : [ 65.0 ],
+													"cristobalite.control::grain-var-duration" : [ 0.85 ],
+													"cristobalite.control::grain-var-period" : [ 0.9 ],
+													"cristobalite.control::grain-var-pitch" : [ 0.0 ],
+													"cristobalite.control::grain-var-position" : [ 0.775 ],
+													"cristobalite.control::grain-var-precise" : [ 0.0 ],
+													"cristobalite.control::live.drop" : [ "" ],
+													"cristobalite.control::play" : [ 1.0 ],
+													"cristobalite.control::player.direction" : [ 1.0 ],
+													"cristobalite.control::player.length" : [ 0.0 ],
+													"cristobalite.control::player.loopswitch" : [ 0.0 ],
+													"cristobalite.control::player.position" : [ 0.0 ],
+													"cristobalite.control::player.rate" : [ 1.0 ],
+													"cristobalite.control::player.start" : [ 0.0 ],
+													"amplitude-envelope::function" : [ 1152.308716, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 9.193769, 1.0, 0, 0.595, 1152.308716, 0.0, 0, -0.6, "curve" ]
+												}
+
+											}
+,
+											"8" : 											{
+												"id" : 8,
+												"data" : 												{
+													"cristobalite.control::filter-freq" : [ 0.0 ],
+													"cristobalite.control::filter-freq-var" : [ 0.0 ],
+													"cristobalite.control::filter-q" : [ 0.0 ],
+													"cristobalite.control::filter-type" : [ 0 ],
+													"cristobalite.control::grain-duration" : [ 0.475 ],
+													"cristobalite.control::grain-env" : [ 1 ],
+													"cristobalite.control::grain-gain" : [ 70.0 ],
+													"cristobalite.control::grain-gain-var" : [ 0.0 ],
+													"cristobalite.control::grain-interval" : [ 0.0 ],
+													"cristobalite.control::grain-overlap" : [ 5.6 ],
+													"cristobalite.control::grain-pitch" : [ 2400.0 ],
+													"cristobalite.control::grain-position" : [ 7.5 ],
+													"cristobalite.control::grain-var-duration" : [ 0.85 ],
+													"cristobalite.control::grain-var-period" : [ 0.9 ],
+													"cristobalite.control::grain-var-pitch" : [ 1260.0 ],
+													"cristobalite.control::grain-var-position" : [ 0.775 ],
+													"cristobalite.control::grain-var-precise" : [ 0.0 ],
+													"cristobalite.control::live.drop" : [ "" ],
+													"cristobalite.control::play" : [ 1.0 ],
+													"cristobalite.control::player.direction" : [ 1.0 ],
+													"cristobalite.control::player.length" : [ 0.0 ],
+													"cristobalite.control::player.loopswitch" : [ 0.0 ],
+													"cristobalite.control::player.position" : [ 0.0 ],
+													"cristobalite.control::player.rate" : [ 1.0 ],
+													"cristobalite.control::player.start" : [ 0.0 ],
+													"amplitude-envelope::function" : [ 1152.308716, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 9.193769, 1.0, 0, 0.595, 1152.308716, 0.0, 0, -0.6, "curve" ]
+												}
+
+											}
+
+										}
+
+									}
+
+								}
+ ],
+							"parameter_initial_enable" : 1,
+							"parameter_invisible" : 1,
+							"parameter_longname" : "---cristobalite",
+							"parameter_shortname" : "---cristobalite",
+							"parameter_type" : 3
+						}
+
+					}
+,
 					"saved_object_attributes" : 					{
-						"client_rect" : [ 8, 44, 362, 632 ],
-						"parameter_enable" : 0,
-						"storage_rect" : [ 1027, 398, 1703, 1007 ]
+						"annotation_name" : "",
+						"client_rect" : [ 8, 44, 501, 605 ],
+						"parameter_enable" : 1,
+						"storage_rect" : [ 1186, 30, 1882, 585 ]
 					}
 ,
 					"style" : "",
-					"text" : "pattrstorage cristobalite",
-					"varname" : "cristobalite"
+					"text" : "pattrstorage ---cristobalite @savemode 3",
+					"varname" : "---cristobalite"
 				}
 
 			}
@@ -935,7 +1499,7 @@
 					"id" : "obj-3",
 					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
-					"name" : "cristobalite.control.maxpat",
+					"name" : "cristobalite.control2.maxpat",
 					"numinlets" : 0,
 					"numoutlets" : 0,
 					"offset" : [ 0.0, 0.0 ],
@@ -964,7 +1528,7 @@
 					"outlettype" : [ "signal", "signal" ],
 					"patching_rect" : [ 893.0, 242.0, 294.0, 115.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 1153.0, 1.0, 291.0, 114.380951 ],
+					"presentation_rect" : [ 1153.0, 0.0, 291.0, 114.380951 ],
 					"viewvisibility" : 1
 				}
 
@@ -992,21 +1556,10 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-25", 1 ],
-					"disabled" : 0,
-					"hidden" : 0,
-					"order" : 1,
-					"source" : [ "obj-10", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-37", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"midpoints" : [ 609.5, 462.0, 717.0, 462.0, 717.0, 182.0, 767.5, 182.0 ],
-					"order" : 0,
 					"source" : [ "obj-10", 0 ]
 				}
 
@@ -1248,6 +1801,15 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-24", 1 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-21", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-44", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -1261,6 +1823,33 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-23", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-25", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-24", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-9", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-25", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-24", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-26", 0 ]
 				}
 
 			}
@@ -1310,6 +1899,24 @@
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-32", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-99", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-33", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-6", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-34", 0 ]
 				}
 
 			}
@@ -1376,6 +1983,24 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-6", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-39", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-6", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-40", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-38", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
@@ -1385,10 +2010,37 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-6", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-43", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-52", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-44", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-6", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-46", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-6", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-48", 0 ]
 				}
 
 			}
@@ -1415,7 +2067,7 @@
 					"destination" : [ "obj-9", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
-					"midpoints" : [ 815.0, 1027.0, 150.0, 1027.0, 150.0, 573.0, 279.0, 573.0, 279.0, 510.0, 279.0, 510.0, 279.0, 283.0, 295.5, 283.0 ],
+					"midpoints" : [ 815.0, 1055.0, 150.0, 1055.0, 150.0, 573.0, 229.0, 573.0, 229.0, 510.0, 229.0, 510.0, 229.0, 276.0, 295.5, 276.0 ],
 					"source" : [ "obj-51", 0 ]
 				}
 
@@ -1431,10 +2083,55 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-6", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-54", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-6", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-56", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-51", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-57", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-6", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-59", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-6", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-61", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-12", 0 ],
+					"disabled" : 0,
+					"hidden" : 0,
+					"source" : [ "obj-62", 0 ]
 				}
 
 			}
@@ -1738,57 +2435,44 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-15::obj-61::obj-61" : [ "live.button[2]", "live.button", 0 ],
-			"obj-3::obj-98" : [ "filter.gain", "gain", 0 ],
-			"obj-10::obj-33" : [ "live.button[3]", "live.button", 0 ],
-			"obj-3::obj-63" : [ "grain.duration", "dur", 0 ],
-			"obj-13" : [ "number[1]", "number[1]", 0 ],
-			"obj-3::obj-54" : [ "grain.resample", "pitch", 0 ],
-			"obj-15::obj-1" : [ "envelope.duration", "dur", 0 ],
-			"obj-3::obj-1" : [ "live.drop", "live.drop", 0 ],
-			"obj-3::obj-14" : [ "grain.var.resample", "pitch.var", 0 ],
-			"obj-3::obj-130" : [ "player.rate", "rate", 0 ],
-			"obj-10::obj-37" : [ "live.numbox[1]", "live.numbox", 0 ],
-			"obj-2::obj-14" : [ "factor_rate", "factor.rate", 0 ],
-			"obj-2::obj-12" : [ "factor.upper", "factor.upper", 0 ],
-			"obj-3::obj-55" : [ "filter.type", "live.tab[1]", 0 ],
-			"obj-3::obj-11" : [ "grain.overlap", "overlap", 0 ],
-			"obj-15::obj-2" : [ "live.text[3]", "live.text", 0 ],
-			"obj-15::obj-23" : [ "live.button", "live.button", 0 ],
-			"obj-3::obj-53" : [ "grain.var.position", "pos.var", 0 ],
-			"obj-3::obj-88" : [ "filterfreqvar", "filter.vfreq", 0 ],
-			"obj-2::obj-112" : [ "poisson_lower", "lower", 0 ],
-			"obj-3::obj-31" : [ "player.loopswitch", "live.text[1]", 0 ],
-			"obj-15::obj-6" : [ "live.text[2]", "live.text[2]", 0 ],
-			"obj-38" : [ "number[2]", "number[2]", 0 ],
-			"obj-3::obj-65" : [ "filter.q", "Q", 0 ],
-			"obj-3::obj-49" : [ "grain.env", "live.tab", 0 ],
-			"obj-3::obj-59" : [ "play", "play", 0 ],
-			"obj-3::obj-80" : [ "grain.var.duration", "dur.var", 0 ],
-			"obj-3::obj-132" : [ "player.direction", "live.text[1]", 0 ],
-			"obj-10::obj-36" : [ "live.numbox", "live.numbox", 0 ],
-			"obj-3::obj-129" : [ "player.start", "live.text[1]", 0 ],
-			"obj-15::obj-27" : [ "envelope", "envelope", 0 ],
-			"obj-3::obj-64" : [ "filter.freq", "filter.frq", 0 ],
-			"obj-15::obj-7" : [ "envelope[1]", "envelope", 0 ],
-			"obj-3::obj-57" : [ "filter.vgain", "gain.var", 0 ],
-			"obj-10::obj-7" : [ "mu", "mu", 0 ],
-			"obj-3::obj-5" : [ "grain.position", "position", 0 ],
-			"obj-2::obj-4" : [ "poisson_rate", "rate", 0 ],
-			"obj-2::obj-13" : [ "factor.lower", "factor.lower", 0 ],
-			"obj-31" : [ "number", "number", 0 ],
-			"obj-3::obj-114" : [ "grain.var.precise", "precise", 0 ],
-			"obj-3::obj-69" : [ "player.position", "position", 0 ],
-			"obj-7" : [ "live.text", "live.text", 0 ],
-			"obj-3::obj-30" : [ "filter.switch", "filter.switch", 0 ],
-			"obj-2::obj-113" : [ "poisson_upper", "upper", 0 ],
-			"obj-10::obj-29" : [ "exp_upper", "upper", 0 ],
-			"obj-3::obj-34" : [ "grain.interval", "interval", 0 ],
-			"obj-10::obj-52" : [ "exp_lower", "lower", 0 ],
-			"obj-3::obj-75" : [ "grain.var.period", "frq.var", 0 ],
-			"obj-2::obj-19" : [ "live.text[4]", "live.text", 0 ],
 			"obj-3::obj-121" : [ "player.length", "length", 0 ],
-			"obj-15::obj-3" : [ "live.text[1]", "live.text", 0 ]
+			"obj-15::obj-3" : [ "live.text[1]", "live.text", 0 ],
+			"obj-10::obj-7" : [ "mu", "mu", 0 ],
+			"obj-13" : [ "number[1]", "number[1]", 0 ],
+			"obj-3::obj-110" : [ "grain-gain", "grain-gain", 0 ],
+			"obj-10::obj-36" : [ "live.numbox", "live.numbox", 0 ],
+			"obj-10::obj-33" : [ "live.button[3]", "live.button", 0 ],
+			"obj-2::obj-19" : [ "live.text[4]", "live.text", 0 ],
+			"obj-10::obj-29" : [ "exp_upper", "upper", 0 ],
+			"obj-26" : [ "Azimuth", "Azimuth", 1 ],
+			"obj-2::obj-4" : [ "poisson_rate", "rate", 0 ],
+			"obj-10::obj-52" : [ "exp_lower", "lower", 0 ],
+			"obj-2::obj-13" : [ "factor.lower", "factor.lower", 0 ],
+			"obj-3::obj-130" : [ "player.rate", "rate", 0 ],
+			"obj-21" : [ "Distance", "Distance", 1 ],
+			"obj-2::obj-113" : [ "poisson_upper", "upper", 0 ],
+			"obj-9" : [ "nodes", "nodes", 0 ],
+			"obj-3::obj-59" : [ "play", "play", 0 ],
+			"obj-7" : [ "live.text", "live.text", 0 ],
+			"obj-3::obj-31" : [ "player.loopswitch", "live.text[1]", 0 ],
+			"obj-10::obj-37" : [ "live.numbox[1]", "live.numbox", 0 ],
+			"obj-15::obj-6" : [ "live.text[2]", "live.text[2]", 0 ],
+			"obj-6" : [ "---cristobalite", "---cristobalite", 0 ],
+			"obj-3::obj-132" : [ "player.direction", "live.text[1]", 0 ],
+			"obj-3::obj-129" : [ "player.start", "live.text[1]", 0 ],
+			"obj-15::obj-61::obj-61" : [ "live.button[2]", "live.button", 0 ],
+			"obj-2::obj-14" : [ "factor_rate", "factor.rate", 0 ],
+			"obj-3::obj-1" : [ "live.drop", "live.drop", 0 ],
+			"obj-2::obj-12" : [ "factor.upper", "factor.upper", 0 ],
+			"obj-31" : [ "number", "number", 0 ],
+			"obj-15::obj-1" : [ "envelope.duration", "dur", 0 ],
+			"obj-3::obj-69" : [ "player.position", "position", 0 ],
+			"obj-15::obj-27" : [ "envelope", "envelope", 0 ],
+			"obj-2::obj-112" : [ "poisson_lower", "lower", 0 ],
+			"obj-15::obj-23" : [ "live.button", "live.button", 0 ],
+			"obj-15::obj-7" : [ "envelope[1]", "envelope", 0 ],
+			"obj-15::obj-2" : [ "live.text[3]", "live.text", 0 ],
+			"obj-38" : [ "number[2]", "number[2]", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
@@ -1828,9 +2512,33 @@
 				"implicit" : 1
 			}
 , 			{
-				"name" : "cristobalite.control.maxpat",
+				"name" : "cristobalite.control2.maxpat",
 				"bootpath" : "E:/Projekte/Max7/Projects/cristobalite-100/patchers",
 				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "filter.txt",
+				"bootpath" : "E:/Projekte/Max7/Projects/cristobalite-100/data",
+				"type" : "TEXT",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "---cristobalite.json",
+				"bootpath" : "E:/Projekte/Max7/Projects/cristobalite-100/data",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "amplitude-envelope.maxpat",
+				"bootpath" : "E:/Projekte/Max7/Projects/cristobalite-100/patchers",
+				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "sine.svg",
+				"bootpath" : "E:/Projekte/Max7/Projects/cristobalite-100/media",
+				"type" : "svg ",
 				"implicit" : 1
 			}
 , 			{
@@ -1853,42 +2561,6 @@
 			}
 , 			{
 				"name" : "square.svg",
-				"bootpath" : "E:/Projekte/Max7/Projects/cristobalite-100/media",
-				"type" : "svg ",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "highcut.svg",
-				"bootpath" : "E:/Projekte/Max7/Projects/cristobalite-100/media",
-				"type" : "svg ",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "lowcut.svg",
-				"bootpath" : "E:/Projekte/Max7/Projects/cristobalite-100/media",
-				"type" : "svg ",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "bandpass.svg",
-				"bootpath" : "E:/Projekte/Max7/Projects/cristobalite-100/media",
-				"type" : "svg ",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "cristobalite.json",
-				"bootpath" : "E:/Projekte/Max7/Projects/cristobalite-100/data",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "amplitude-envelope.maxpat",
-				"bootpath" : "E:/Projekte/Max7/Projects/cristobalite-100/patchers",
-				"type" : "JSON",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "sine.svg",
 				"bootpath" : "E:/Projekte/Max7/Projects/cristobalite-100/media",
 				"type" : "svg ",
 				"implicit" : 1
@@ -2050,6 +2722,7 @@
 		"styles" : [ 			{
 				"name" : "control",
 				"default" : 				{
+					"bgcolor" : [ 0.681193, 0.750541, 0.758255, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -2060,9 +2733,8 @@
 						"autogradient" : 0
 					}
 ,
-					"fontface" : [ 0 ],
-					"bgcolor" : [ 0.681193, 0.750541, 0.758255, 1.0 ],
-					"textcolor_inverse" : [ 0.086275, 0.309804, 0.52549, 1.0 ]
+					"textcolor_inverse" : [ 0.086275, 0.309804, 0.52549, 1.0 ],
+					"fontface" : [ 0 ]
 				}
 ,
 				"message" : 				{
@@ -2105,7 +2777,7 @@
 				"name" : "orange",
 				"default" : 				{
 					"color" : [ 0.952941, 0.564706, 0.098039, 1.0 ],
-					"textjustification" : [ 0 ],
+					"fontname" : [ "Source Code Pro" ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
@@ -2116,10 +2788,10 @@
 						"autogradient" : 0
 					}
 ,
+					"textjustification" : [ 0 ],
 					"selectioncolor" : [ 0.952941, 0.564706, 0.098039, 1.0 ],
-					"fontsize" : [ 11.0 ],
-					"fontname" : [ "Source Code Pro" ],
-					"textcolor_inverse" : [ 0.952941, 0.564706, 0.098039, 1.0 ]
+					"textcolor_inverse" : [ 0.952941, 0.564706, 0.098039, 1.0 ],
+					"fontsize" : [ 11.0 ]
 				}
 ,
 				"parentstyle" : "",

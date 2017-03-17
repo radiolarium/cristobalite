@@ -1,9 +1,9 @@
 {
 	"name" : "cristobalite-100",
 	"version" : 1,
-	"creationdate" : -733650562,
-	"modificationdate" : 3572287803,
-	"viewrect" : [ 15.0, 58.0, 300.0, 525.0 ],
+	"creationdate" : -733651288,
+	"modificationdate" : 3572637082,
+	"viewrect" : [ 15.0, 58.0, 280.0, 525.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -36,7 +36,7 @@
 				"local" : 1
 			}
 ,
-			"cristobalite.control.maxpat" : 			{
+			"cristobalite.control2.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -62,6 +62,11 @@
 			}
 ,
 			"duration-exponential.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"cristobalite.control.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
@@ -111,12 +116,22 @@
 				"local" : 1
 			}
 ,
-			"cristobalite.json" : 			{
+			"---cristobalite.json" : 			{
 				"kind" : "json",
 				"local" : 1
 			}
 ,
 			"waveform.txt" : 			{
+				"kind" : "textfile",
+				"local" : 1
+			}
+,
+			"cristobalite.json" : 			{
+				"kind" : "json",
+				"local" : 1
+			}
+,
+			"filter.txt" : 			{
 				"kind" : "textfile",
 				"local" : 1
 			}
