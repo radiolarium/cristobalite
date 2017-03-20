@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 820.0, 122.0, 908.0, 817.0 ],
+		"rect" : [ 820.0, 122.0, 530.0, 817.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -553,7 +553,7 @@
 					"patching_rect" : [ 526.0, 17.5, 40.0, 40.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 262.5, 18.5, 40.0, 40.0 ],
-					"size" : 100.0,
+					"size" : 1.0,
 					"style" : "",
 					"varname" : "grain-position"
 				}
@@ -1233,7 +1233,7 @@
 						"grain-interval" : [ 0.0 ],
 						"grain-overlap" : [ 8.4 ],
 						"grain-pitch" : [ 0.0 ],
-						"grain-position" : [ 22.5 ],
+						"grain-position" : [ 1.0 ],
 						"grain-var-duration" : [ 0.0 ],
 						"grain-var-period" : [ 0.0 ],
 						"grain-var-pitch" : [ 0.0 ],
@@ -1251,7 +1251,7 @@
 ,
 					"style" : "",
 					"text" : "autopattr",
-					"varname" : "u787003881"
+					"varname" : "u798000982"
 				}
 
 			}
@@ -2757,15 +2757,15 @@
 			}
  ],
 		"parameters" : 		{
-			"obj-121" : [ "player.length", "length", 0 ],
-			"obj-110" : [ "grain-gain", "grain-gain", 0 ],
 			"obj-130" : [ "player.rate", "rate", 0 ],
-			"obj-59" : [ "play", "play", 0 ],
 			"obj-31" : [ "player.loopswitch", "live.text[1]", 0 ],
 			"obj-132" : [ "player.direction", "live.text[1]", 0 ],
 			"obj-129" : [ "player.start", "live.text[1]", 0 ],
-			"obj-1" : [ "live.drop", "live.drop", 0 ],
-			"obj-69" : [ "player.position", "position", 0 ]
+			"obj-69" : [ "player.position", "position", 0 ],
+			"obj-121" : [ "player.length", "length", 0 ],
+			"obj-110" : [ "grain-gain", "grain-gain", 0 ],
+			"obj-59" : [ "play", "play", 0 ],
+			"obj-1" : [ "live.drop", "live.drop", 0 ]
 		}
 ,
 		"dependency_cache" : [ 			{
@@ -2780,6 +2780,7 @@
 				"name" : "control",
 				"default" : 				{
 					"bgcolor" : [ 0.681193, 0.750541, 0.758255, 1.0 ],
+					"textcolor_inverse" : [ 0.086275, 0.309804, 0.52549, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -2790,11 +2791,11 @@
 						"autogradient" : 0
 					}
 ,
-					"textcolor_inverse" : [ 0.086275, 0.309804, 0.52549, 1.0 ],
 					"fontface" : [ 0 ]
 				}
 ,
 				"message" : 				{
+					"textcolor_inverse" : [ 0.086275, 0.309804, 0.52549, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -2804,8 +2805,7 @@
 						"proportion" : 0.39,
 						"autogradient" : 0
 					}
-,
-					"textcolor_inverse" : [ 0.086275, 0.309804, 0.52549, 1.0 ]
+
 				}
 ,
 				"parentstyle" : "redness",
@@ -2814,6 +2814,7 @@
 , 			{
 				"name" : "control2",
 				"default" : 				{
+					"textcolor_inverse" : [ 0.086275, 0.309804, 0.52549, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color" : [ 0.681193, 0.750541, 0.758255, 1.0 ],
@@ -2823,8 +2824,7 @@
 						"proportion" : 0.39,
 						"autogradient" : 0
 					}
-,
-					"textcolor_inverse" : [ 0.086275, 0.309804, 0.52549, 1.0 ]
+
 				}
 ,
 				"parentstyle" : "chiba",
@@ -2834,7 +2834,10 @@
 				"name" : "orange",
 				"default" : 				{
 					"color" : [ 0.952941, 0.564706, 0.098039, 1.0 ],
+					"selectioncolor" : [ 0.952941, 0.564706, 0.098039, 1.0 ],
 					"fontname" : [ "Source Code Pro" ],
+					"textjustification" : [ 0 ],
+					"textcolor_inverse" : [ 0.952941, 0.564706, 0.098039, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
@@ -2845,9 +2848,6 @@
 						"autogradient" : 0
 					}
 ,
-					"textjustification" : [ 0 ],
-					"selectioncolor" : [ 0.952941, 0.564706, 0.098039, 1.0 ],
-					"textcolor_inverse" : [ 0.952941, 0.564706, 0.098039, 1.0 ],
 					"fontsize" : [ 11.0 ]
 				}
 ,

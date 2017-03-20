@@ -1,8 +1,8 @@
 {
 	"name" : "cristobalite-100",
 	"version" : 1,
-	"creationdate" : -733651288,
-	"modificationdate" : 3572637082,
+	"creationdate" : -733651530,
+	"modificationdate" : 3572786031,
 	"viewrect" : [ 15.0, 58.0, 280.0, 525.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -90,6 +90,11 @@
 				"kind" : "patcher",
 				"local" : 1
 			}
+,
+			"panning.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
 
 		}
 ,
@@ -116,6 +121,11 @@
 				"local" : 1
 			}
 ,
+			"filter.txt" : 			{
+				"kind" : "textfile",
+				"local" : 1
+			}
+,
 			"---cristobalite.json" : 			{
 				"kind" : "json",
 				"local" : 1
@@ -128,11 +138,6 @@
 ,
 			"cristobalite.json" : 			{
 				"kind" : "json",
-				"local" : 1
-			}
-,
-			"filter.txt" : 			{
-				"kind" : "textfile",
 				"local" : 1
 			}
 
