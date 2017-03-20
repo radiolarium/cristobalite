@@ -1,0 +1,241 @@
+{
+	"pattrstorage" : 	{
+		"name" : "cristobalite",
+		"slots" : 		{
+			"1" : 			{
+				"id" : 1,
+				"data" : 				{
+					"cristobalite.control::filter-freq" : [ 0.0 ],
+					"cristobalite.control::filter-freq-var" : [ 0.0 ],
+					"cristobalite.control::filter-q" : [ 0.0 ],
+					"cristobalite.control::filter-type" : [ 0 ],
+					"cristobalite.control::grain-duration" : [ 0.3254 ],
+					"cristobalite.control::grain-env" : [ 2 ],
+					"cristobalite.control::grain-interval" : [ 0.0 ],
+					"cristobalite.control::grain-overlap" : [ 8.400401 ],
+					"cristobalite.control::grain-position" : [ 75.000401 ],
+					"cristobalite.control::grain-var-duration" : [ 0.0 ],
+					"cristobalite.control::grain-var-period" : [ 0.0 ],
+					"cristobalite.control::grain-var-position" : [ 0.0 ],
+					"cristobalite.control::grain-var-precise" : [ 0.0 ],
+					"cristobalite.control::live.drop" : [ "" ],
+					"cristobalite.control::play" : [ 1.0 ],
+					"cristobalite.control::player.direction" : [ 1.0 ],
+					"cristobalite.control::player.length" : [ 0.0 ],
+					"cristobalite.control::player.loopswitch" : [ 0.0 ],
+					"cristobalite.control::player.position" : [ 0.0 ],
+					"cristobalite.control::player.rate" : [ 1.0 ],
+					"cristobalite.control::player.start" : [ 0.0 ],
+					"amplitude-envelope::function" : [ 1152.308716, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 9.193769, 1.0, 0, 0.595, 1152.308716, 0.0, 0, -0.6, "curve" ]
+				}
+
+			}
+,
+			"2" : 			{
+				"id" : 2,
+				"data" : 				{
+					"cristobalite.control::filter-freq" : [ 0.0 ],
+					"cristobalite.control::filter-freq-var" : [ 0.0 ],
+					"cristobalite.control::filter-q" : [ 0.0 ],
+					"cristobalite.control::filter-type" : [ 0 ],
+					"cristobalite.control::grain-duration" : [ 0.3254 ],
+					"cristobalite.control::grain-env" : [ 2 ],
+					"cristobalite.control::grain-interval" : [ 0.0 ],
+					"cristobalite.control::grain-overlap" : [ 16.0 ],
+					"cristobalite.control::grain-position" : [ 77.500401 ],
+					"cristobalite.control::grain-var-duration" : [ 0.0 ],
+					"cristobalite.control::grain-var-period" : [ 0.0 ],
+					"cristobalite.control::grain-var-position" : [ 0.0 ],
+					"cristobalite.control::grain-var-precise" : [ 0.0 ],
+					"cristobalite.control::live.drop" : [ "" ],
+					"cristobalite.control::play" : [ 1.0 ],
+					"cristobalite.control::player.direction" : [ 1.0 ],
+					"cristobalite.control::player.length" : [ 0.0 ],
+					"cristobalite.control::player.loopswitch" : [ 0.0 ],
+					"cristobalite.control::player.position" : [ 0.0 ],
+					"cristobalite.control::player.rate" : [ 1.0 ],
+					"cristobalite.control::player.start" : [ 0.0 ],
+					"amplitude-envelope::function" : [ 1152.308716, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 9.193769, 1.0, 0, 0.595, 1152.308716, 0.0, 0, -0.6, "curve" ]
+				}
+
+			}
+,
+			"3" : 			{
+				"id" : 3,
+				"data" : 				{
+					"cristobalite.control::filter-freq" : [ 0.0 ],
+					"cristobalite.control::filter-freq-var" : [ 0.0 ],
+					"cristobalite.control::filter-q" : [ 0.0 ],
+					"cristobalite.control::filter-type" : [ 0 ],
+					"cristobalite.control::grain-duration" : [ 0.2504 ],
+					"cristobalite.control::grain-env" : [ 2 ],
+					"cristobalite.control::grain-interval" : [ 0.0 ],
+					"cristobalite.control::grain-overlap" : [ 16.0 ],
+					"cristobalite.control::grain-position" : [ 17.500401 ],
+					"cristobalite.control::grain-var-duration" : [ 0.0 ],
+					"cristobalite.control::grain-var-period" : [ 1.5 ],
+					"cristobalite.control::grain-var-position" : [ 0.075 ],
+					"cristobalite.control::grain-var-precise" : [ 0.0 ],
+					"cristobalite.control::live.drop" : [ "" ],
+					"cristobalite.control::play" : [ 1.0 ],
+					"cristobalite.control::player.direction" : [ 1.0 ],
+					"cristobalite.control::player.length" : [ 0.0 ],
+					"cristobalite.control::player.loopswitch" : [ 0.0 ],
+					"cristobalite.control::player.position" : [ 0.0 ],
+					"cristobalite.control::player.rate" : [ 1.0 ],
+					"cristobalite.control::player.start" : [ 0.0 ],
+					"amplitude-envelope::function" : [ 1152.308716, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 9.193769, 1.0, 0, 0.595, 1152.308716, 0.0, 0, -0.6, "curve" ]
+				}
+
+			}
+,
+			"4" : 			{
+				"id" : 4,
+				"data" : 				{
+					"cristobalite.control::filter-freq" : [ 0.0 ],
+					"cristobalite.control::filter-freq-var" : [ 0.0 ],
+					"cristobalite.control::filter-q" : [ 0.0 ],
+					"cristobalite.control::filter-type" : [ 0 ],
+					"cristobalite.control::grain-duration" : [ 0.3254 ],
+					"cristobalite.control::grain-env" : [ 2 ],
+					"cristobalite.control::grain-interval" : [ 0.0 ],
+					"cristobalite.control::grain-overlap" : [ 8.400401 ],
+					"cristobalite.control::grain-position" : [ 75.000401 ],
+					"cristobalite.control::grain-var-duration" : [ 0.0 ],
+					"cristobalite.control::grain-var-period" : [ 0.0 ],
+					"cristobalite.control::grain-var-position" : [ 0.0 ],
+					"cristobalite.control::grain-var-precise" : [ 0.0 ],
+					"cristobalite.control::live.drop" : [ "" ],
+					"cristobalite.control::play" : [ 1.0 ],
+					"cristobalite.control::player.direction" : [ 1.0 ],
+					"cristobalite.control::player.length" : [ 0.0 ],
+					"cristobalite.control::player.loopswitch" : [ 0.0 ],
+					"cristobalite.control::player.position" : [ 0.0 ],
+					"cristobalite.control::player.rate" : [ 1.0 ],
+					"cristobalite.control::player.start" : [ 0.0 ],
+					"amplitude-envelope::function" : [ 1152.308716, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 9.193769, 1.0, 0, 0.595, 1152.308716, 0.0, 0, -0.6, "curve" ]
+				}
+
+			}
+,
+			"5" : 			{
+				"id" : 5,
+				"data" : 				{
+					"cristobalite.control::filter-freq" : [ 0.0 ],
+					"cristobalite.control::filter-freq-var" : [ 0.0 ],
+					"cristobalite.control::filter-q" : [ 0.0 ],
+					"cristobalite.control::filter-type" : [ 0 ],
+					"cristobalite.control::grain-duration" : [ 0.3254 ],
+					"cristobalite.control::grain-env" : [ 2 ],
+					"cristobalite.control::grain-interval" : [ 0.0 ],
+					"cristobalite.control::grain-overlap" : [ 8.400401 ],
+					"cristobalite.control::grain-position" : [ 75.000401 ],
+					"cristobalite.control::grain-var-duration" : [ 0.0 ],
+					"cristobalite.control::grain-var-period" : [ 0.0 ],
+					"cristobalite.control::grain-var-position" : [ 0.0 ],
+					"cristobalite.control::grain-var-precise" : [ 0.0 ],
+					"cristobalite.control::live.drop" : [ "" ],
+					"cristobalite.control::play" : [ 1.0 ],
+					"cristobalite.control::player.direction" : [ 1.0 ],
+					"cristobalite.control::player.length" : [ 0.0 ],
+					"cristobalite.control::player.loopswitch" : [ 0.0 ],
+					"cristobalite.control::player.position" : [ 0.0 ],
+					"cristobalite.control::player.rate" : [ 1.0 ],
+					"cristobalite.control::player.start" : [ 0.0 ],
+					"amplitude-envelope::function" : [ 1152.308716, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 9.193769, 1.0, 0, 0.595, 1152.308716, 0.0, 0, -0.6, "curve" ]
+				}
+
+			}
+,
+			"6" : 			{
+				"id" : 6,
+				"data" : 				{
+					"cristobalite.control::filter-freq" : [ 0.0 ],
+					"cristobalite.control::filter-freq-var" : [ 0.0 ],
+					"cristobalite.control::filter-q" : [ 0.0 ],
+					"cristobalite.control::filter-type" : [ 0 ],
+					"cristobalite.control::grain-duration" : [ 0.3254 ],
+					"cristobalite.control::grain-env" : [ 2 ],
+					"cristobalite.control::grain-interval" : [ 0.0 ],
+					"cristobalite.control::grain-overlap" : [ 8.400401 ],
+					"cristobalite.control::grain-position" : [ 75.000401 ],
+					"cristobalite.control::grain-var-duration" : [ 0.0 ],
+					"cristobalite.control::grain-var-period" : [ 0.0 ],
+					"cristobalite.control::grain-var-position" : [ 0.0 ],
+					"cristobalite.control::grain-var-precise" : [ 0.0 ],
+					"cristobalite.control::live.drop" : [ "" ],
+					"cristobalite.control::play" : [ 1.0 ],
+					"cristobalite.control::player.direction" : [ 1.0 ],
+					"cristobalite.control::player.length" : [ 0.0 ],
+					"cristobalite.control::player.loopswitch" : [ 0.0 ],
+					"cristobalite.control::player.position" : [ 0.0 ],
+					"cristobalite.control::player.rate" : [ 1.0 ],
+					"cristobalite.control::player.start" : [ 0.0 ],
+					"amplitude-envelope::function" : [ 1152.308716, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 9.193769, 1.0, 0, 0.595, 1152.308716, 0.0, 0, -0.6, "curve" ]
+				}
+
+			}
+,
+			"7" : 			{
+				"id" : 7,
+				"data" : 				{
+					"cristobalite.control::filter-freq" : [ 0.0 ],
+					"cristobalite.control::filter-freq-var" : [ 0.0 ],
+					"cristobalite.control::filter-q" : [ 0.0 ],
+					"cristobalite.control::filter-type" : [ 0 ],
+					"cristobalite.control::grain-duration" : [ 0.3254 ],
+					"cristobalite.control::grain-env" : [ 2 ],
+					"cristobalite.control::grain-interval" : [ 0.0 ],
+					"cristobalite.control::grain-overlap" : [ 8.400401 ],
+					"cristobalite.control::grain-position" : [ 75.000401 ],
+					"cristobalite.control::grain-var-duration" : [ 0.0 ],
+					"cristobalite.control::grain-var-period" : [ 0.0 ],
+					"cristobalite.control::grain-var-position" : [ 0.0 ],
+					"cristobalite.control::grain-var-precise" : [ 0.0 ],
+					"cristobalite.control::live.drop" : [ "" ],
+					"cristobalite.control::play" : [ 1.0 ],
+					"cristobalite.control::player.direction" : [ 1.0 ],
+					"cristobalite.control::player.length" : [ 0.0 ],
+					"cristobalite.control::player.loopswitch" : [ 0.0 ],
+					"cristobalite.control::player.position" : [ 0.0 ],
+					"cristobalite.control::player.rate" : [ 1.0 ],
+					"cristobalite.control::player.start" : [ 0.0 ],
+					"amplitude-envelope::function" : [ 1152.308716, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 9.193769, 1.0, 0, 0.595, 1152.308716, 0.0, 0, -0.6, "curve" ]
+				}
+
+			}
+,
+			"8" : 			{
+				"id" : 8,
+				"data" : 				{
+					"cristobalite.control::filter-freq" : [ 0.0 ],
+					"cristobalite.control::filter-freq-var" : [ 0.0 ],
+					"cristobalite.control::filter-q" : [ 0.0 ],
+					"cristobalite.control::filter-type" : [ 0 ],
+					"cristobalite.control::grain-duration" : [ 0.3254 ],
+					"cristobalite.control::grain-env" : [ 2 ],
+					"cristobalite.control::grain-interval" : [ 0.0 ],
+					"cristobalite.control::grain-overlap" : [ 8.400401 ],
+					"cristobalite.control::grain-position" : [ 75.000401 ],
+					"cristobalite.control::grain-var-duration" : [ 0.0 ],
+					"cristobalite.control::grain-var-period" : [ 0.0 ],
+					"cristobalite.control::grain-var-position" : [ 0.0 ],
+					"cristobalite.control::grain-var-precise" : [ 0.0 ],
+					"cristobalite.control::live.drop" : [ "" ],
+					"cristobalite.control::play" : [ 1.0 ],
+					"cristobalite.control::player.direction" : [ 1.0 ],
+					"cristobalite.control::player.length" : [ 0.0 ],
+					"cristobalite.control::player.loopswitch" : [ 0.0 ],
+					"cristobalite.control::player.position" : [ 0.0 ],
+					"cristobalite.control::player.rate" : [ 1.0 ],
+					"cristobalite.control::player.start" : [ 0.0 ],
+					"amplitude-envelope::function" : [ 1152.308716, 0.0, 1.0, 0.0, 0.0, 0, 0.0, 9.193769, 1.0, 0, 0.595, 1152.308716, 0.0, 0, -0.6, "curve" ]
+				}
+
+			}
+
+		}
+
+	}
+
+}
