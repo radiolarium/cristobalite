@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 306.0, 415.0, 1147.0, 701.0 ],
+		"rect" : [ 407.0, 199.0, 1234.0, 742.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -71,7 +71,7 @@
 					"numinlets" : 0,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 149.0, 16.0, 86.0, 22.0 ],
+					"patching_rect" : [ 116.0, 216.0, 86.0, 22.0 ],
 					"style" : "",
 					"text" : "r ---instrument"
 				}
@@ -677,11 +677,11 @@
 					"content" : [ 2, [ [  ] ] ],
 					"cursor_color" : [ 1.0, 1.0, 1.0, 0.76 ],
 					"cursor_followmouse" : 0,
-					"cursor_position" : -1.0,
+					"cursor_position" : 640.071429,
 					"cursor_shape" : "bar",
 					"cursor_size" : 7,
 					"cursor_visible" : 1,
-					"domain_bounds" : [ 0.0, 64246.734694 ],
+					"domain_bounds" : [ 0.0, 2844.739229 ],
 					"domainruler_bgcolor" : [ 1.0, 1.0, 1.0, 1.0 ],
 					"domainruler_fgcolor" : [ 0.0, 0.0, 0.0, 1.0 ],
 					"domainruler_grid" : 0,
@@ -714,7 +714,7 @@
 					"rangeruler_grid" : 0,
 					"rangeruler_size" : 35,
 					"rangeruler_visible" : 0,
-					"region_bounds" : [ 0.0, 0.0 ],
+					"region_bounds" : [ -26.202209, 3.937493 ],
 					"region_color" : [ 0.862745, 0.870588, 0.878431, 1.0 ],
 					"split_color" : [ 1.0, 0.0, 0.0, 1.0 ],
 					"split_size" : 2,
@@ -1058,7 +1058,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-22", 0 ],
+					"destination" : [ "obj-16", 0 ],
 					"disabled" : 0,
 					"hidden" : 0,
 					"source" : [ "obj-23", 0 ]
@@ -1473,9 +1473,84 @@
  ],
 		"autosave" : 0,
 		"styles" : [ 			{
+				"name" : "Audiomix",
+				"default" : 				{
+					"bgfillcolor" : 					{
+						"type" : "gradient",
+						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
+						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+						"angle" : 270.0,
+						"proportion" : 0.39
+					}
+
+				}
+,
+				"parentstyle" : "",
+				"multi" : 0
+			}
+, 			{
+				"name" : "Default M4L",
+				"default" : 				{
+					"fontsize" : [ 11.0 ],
+					"fontname" : [ "Arial Bold" ],
+					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ]
+				}
+,
+				"parentstyle" : "",
+				"multi" : 0
+			}
+, 			{
+				"name" : "Default M4L Poletti",
+				"default" : 				{
+					"fontsize" : [ 10.0 ],
+					"fontname" : [ "Arial Bold" ],
+					"patchlinecolor" : [ 0.290196, 0.309804, 0.301961, 0.85 ]
+				}
+,
+				"parentstyle" : "",
+				"multi" : 0
+			}
+, 			{
+				"name" : "Default M4L-1",
+				"default" : 				{
+					"fontsize" : [ 11.0 ],
+					"fontname" : [ "Arial" ],
+					"bgfillcolor" : 					{
+						"type" : "gradient",
+						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
+						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+						"angle" : 270.0,
+						"proportion" : 0.39
+					}
+,
+					"fontface" : [ 1 ]
+				}
+,
+				"parentstyle" : "",
+				"multi" : 0
+			}
+, 			{
+				"name" : "Max 12 Regular",
+				"default" : 				{
+					"bgfillcolor" : 					{
+						"type" : "gradient",
+						"color1" : [ 0.376471, 0.384314, 0.4, 1.0 ],
+						"color2" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
+						"angle" : 270.0,
+						"proportion" : 0.39
+					}
+
+				}
+,
+				"parentstyle" : "",
+				"multi" : 0
+			}
+, 			{
 				"name" : "control",
 				"default" : 				{
-					"textcolor_inverse" : [ 0.086275, 0.309804, 0.52549, 1.0 ],
 					"bgcolor" : [ 0.681193, 0.750541, 0.758255, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
@@ -1487,11 +1562,11 @@
 						"autogradient" : 0
 					}
 ,
+					"textcolor_inverse" : [ 0.086275, 0.309804, 0.52549, 1.0 ],
 					"fontface" : [ 0 ]
 				}
 ,
 				"message" : 				{
-					"textcolor_inverse" : [ 0.086275, 0.309804, 0.52549, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "gradient",
 						"color" : [ 0.290196, 0.309804, 0.301961, 1.0 ],
@@ -1501,7 +1576,8 @@
 						"proportion" : 0.39,
 						"autogradient" : 0
 					}
-
+,
+					"textcolor_inverse" : [ 0.086275, 0.309804, 0.52549, 1.0 ]
 				}
 ,
 				"parentstyle" : "redness",
@@ -1510,7 +1586,6 @@
 , 			{
 				"name" : "control2",
 				"default" : 				{
-					"textcolor_inverse" : [ 0.086275, 0.309804, 0.52549, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color" : [ 0.681193, 0.750541, 0.758255, 1.0 ],
@@ -1520,7 +1595,8 @@
 						"proportion" : 0.39,
 						"autogradient" : 0
 					}
-
+,
+					"textcolor_inverse" : [ 0.086275, 0.309804, 0.52549, 1.0 ]
 				}
 ,
 				"parentstyle" : "chiba",
@@ -1530,8 +1606,8 @@
 				"name" : "orange",
 				"default" : 				{
 					"color" : [ 0.952941, 0.564706, 0.098039, 1.0 ],
+					"fontsize" : [ 11.0 ],
 					"fontname" : [ "Source Code Pro" ],
-					"textcolor_inverse" : [ 0.952941, 0.564706, 0.098039, 1.0 ],
 					"bgfillcolor" : 					{
 						"type" : "color",
 						"color1" : [ 0.239216, 0.254902, 0.278431, 1.0 ],
@@ -1542,9 +1618,9 @@
 						"autogradient" : 0
 					}
 ,
-					"textjustification" : [ 0 ],
 					"selectioncolor" : [ 0.952941, 0.564706, 0.098039, 1.0 ],
-					"fontsize" : [ 11.0 ]
+					"textjustification" : [ 0 ],
+					"textcolor_inverse" : [ 0.952941, 0.564706, 0.098039, 1.0 ]
 				}
 ,
 				"parentstyle" : "",

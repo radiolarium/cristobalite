@@ -1,8 +1,8 @@
 {
 	"name" : "cristobalite-100",
 	"version" : 1,
-	"creationdate" : -733651530,
-	"modificationdate" : 3572786031,
+	"creationdate" : -733651651,
+	"modificationdate" : 3572979348,
 	"viewrect" : [ 15.0, 58.0, 280.0, 525.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -66,6 +66,11 @@
 				"local" : 1
 			}
 ,
+			"panning.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
 			"cristobalite.control.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
@@ -87,11 +92,6 @@
 			}
 ,
 			"notes.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"panning.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
